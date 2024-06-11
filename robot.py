@@ -24,6 +24,7 @@ class ROBOT:
         else:
             self.current_pos = self.current_pos + self.velocity
             self.trace.append(self.current_pos)
+            
 
     def movetoGoal(self,goal, pre_goal):
         if (goal - pre_goal) == 1:
@@ -51,6 +52,8 @@ class ROBOT:
             if path == []:
                 # break
                 pass
+        else:
+            self.prev_goal = self.prev_goal 
         return self.current_pos
     
     def check_range(self, robots):

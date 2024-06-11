@@ -138,9 +138,9 @@ class DRAW:
         
         # #điểm khởi tạo
         # init_points = [301, 304, 307, 310, 313, 316]
-        init_points = [6, 5, 8, 15, 25, 13, 16,18,22, 387, 384, 385, 386, 387, 388, 389, 397, 395 ]
+        init_points = [6, 5, 8, 15, 25, 13, 16,18,22, 387, 384, 385, 386, 390, 388, 389, 392, 393, 394, 395, 396]
         # #điểm đích
-        target_points = [226,224,229,112,178,352,115,113,110, 167, 223, 221, 286,175, 235, 295, 236, 283 ]
+        target_points = [226,224,229,112,178,352,115,113,110, 167, 223, 221, 286, 175, 235, 295, 43,46,49,52,55 ]
     
             
         
@@ -221,91 +221,79 @@ class DRAW:
                         robot.status = 0
                     # print(robot.path)
                 for other_robot in robots:
-                    if other_robot != robot:
-                        if len(robot.path) > 2 and len(other_robot.path) > 2 and robot.path[1] == other_robot.path[1]:
-                            collided += 1
-                            other_robot.status = 3
-                            other_robot.path_wait = other_robot.path.copy()
-                            other_robot.path = []
+                    if robot != other_robot:
+                        
+                        if len(other_robot.path) > 1 and len(robot.path) > 1 and robot.path[1] == other_robot.path[1]:
                             robot.status = 3
-                            robot.velocity = 0
-                            robot.path_wait = robot.path.copy()
+                            robot.path_wait = robot.path
                             robot.path = []
-                        if len(robot.path) > 2 and len(other_robot.path) > 2 and np.linalg.norm(np.array(robot.current_pos) - np.array(other_robot.current_pos)) <= 30 and robot.status != 3 and other_robot.status != 3 :
-                            if len(robot.path) <= len(other_robot.path) and robot.path[1] != other_robot.path[0]  : 
-                                robot.status = 4
-                                other_robot.status = 3
-                                other_robot.path_wait = other_robot.path.copy()
-                                other_robot.path = []
-                                # collided =+ 1
-                            elif len(other_robot.path) <= len(robot.path) and robot.path[0] != other_robot.path[1] :
-                                robot.status = 3
-                                robot.velocity = 0
-                                robot.path_wait = robot.path.copy()
-                                robot.path = []
+                            other_robot.status = 3
+                            other_robot.path_wait = other_robot.path
+                            other_robot.path = []
+                            collided +=  1
+                            print(robot.robot_id, " -+-", other_robot.robot_id)
+                            if other_robot.prev_goal in robot.path_wait:
                                 other_robot.status = 4
-                        elif np.linalg.norm(np.array(robot.current_pos) - np.array(other_robot.current_pos)) > 30 and robot.status == 3 or other_robot.status == 3:
-                            if robot.status == 3:
-                                robot.status = 1
-                                robot.path = robot.path_wait.copy()
-                            elif other_robot.status == 3:
-                                other_robot.status = 1
-                                other_robot.path = other_robot.path_wait.copy()
-                        # if len(robot.path) > 2 and len(other_robot.path) > 2:
-                        #     r1 = [robot.path[0], robot.path[1]]
-                        #     r2 = [other_robot.path[0], other_robot.path[1]]
-                        #     comm = set(r1) & set(r2)
-                        #     if len(comm) >0 and robot.path[0] not in other_robot.path:
-                        #         other_robot.status = 4
-                        #         robot.status = 3
-                        #         robot.velocity = 0
-                        #         robot.path_wait = robot.path.copy()
-                        #         robot.path = []
-                        #     elif len(comm) != 0 and other_robot.path[0] not in robot.path:
-                        #         robot.status = 4
-                        #         other_robot.status = 3
-                        #         other_robot.velocity = 0
-                        #         other_robot.path_wait = other_robot.path.copy()
-                        #         other_robot.path = []
-                        #     else:
-                        #         if robot.status == 3:
-                        #             robot.status = 1
-                        #             robot.path = robot.path_wait.copy()
-                        #         elif other_robot.status == 3:
-                        #             other_robot.status = 1
-                        #             other_robot.path = other_robot.path_wait.copy()
-                    
-                
+                                other_robot.path = other_robot.path_wait
+                                # other_robot.path_wait = []
+                            elif robot.prev_goal in other_robot.path_wait:
+                                robot.status = 4
+                                robot.path = robot.path_wait
+              
+            # for robot in robots:
+            #     flag = 0
+            #     if robot.status == 4 and len(robot.path) > 2 or robot.status == 1 and len(robot.path) > 2:
+            #         for other in robots:
+            #             if other != robot:
+            #                 if other.status == 3 and robot.path[0] == other.prev_goal :
+            #                     flag += 1
+            #                 elif other.status != 3 and len(other.path) > 2 and robot.path[0] != other.path[0]:
+            #                     flag += 1
+            #                 elif other.status == 0 or len(other.path) < 2:
+            #                     flag += 1
+            #                 else:
+            #                     flag = flag
+            #         if flag == (len(robots)-1):
+            #             robot.status = robot.status
+            #         else:
+            #             robot.status = 3
+            #             robot.path_wait = robot.path
+            #             robot.path = []
+
+            #     elif robot.status == 3 and len(robot.path_wait) > 2:
+            #         for other in robots:
+            #             if other != robot:
+            #                 if other.status == 3 and robot.path_wait[0] != other.prev_goal :
+            #                     flag += 1
+            #                 elif other.status != 3 and len(other.path) > 2 and robot.path_wait[0] != other.path[0]:
+            #                     flag += 1
+            #                 elif other.status == 0 or len(other.path) < 2:
+            #                     flag += 1
+            #                 else:
+            #                     flag = flag
+            #         if flag == (len(robots) - 1):
+            #             robot.status = 4
+            #             robot.path = robot.path_wait
+            #             robot.path_wait = []
+            #         else:
+            #             robot.status = robot.status
             
+            for robot in robots:
                 robot.followPath(robot.path)
                 
                 self.draw_robot(robot)
-                self.drawMove(robot.path, robot)
+                # self.drawMove(robot.path, robot)
+                # status += f"{len(robots)} ||"
+                
+            # print(status)
             # status = ""
             # for i in range(len(robots)):
             #     status += f"r{i}: {robots[i].status}; "
-            # print(status)
+            # # print(status)
+            #     print(i,"pre_goal ",robots[i].prev_goal,": path: ", robots[i].path," path_wait", robots[i].path_wait)
 
-            
-            
-            
-            # print(position)
-            # if path != []:
-            #     robot.movetoGoal(path[0], init_point)
-            #     robot.updatePose()
-            #     self.draw_robot(robot)
-                
-            #     if np.linalg.norm(robot.current_pos - np.array(self.centers[path[0]])) < 1.5:
-            #         init_point = path[0]
-            #         path.pop(0)
-            #         # print(path[0], init_point)
-            #     if path == []:
-            #         # break
-            #         continue
-            
-            
-            
-            
+            # print("path: ",robots[12].path)
+            # print("prev_goal",robots[12].prev_goal)
             # print(robots[0].path)
             pygame.display.flip()
             self.clock.tick(100)
@@ -348,6 +336,3 @@ if __name__ == "__main__":
     # print(draw.map_matrix)
 
     draw.plot()
-    
-
-    
