@@ -50,7 +50,7 @@ class DRAW:
     def draw_robot(self,robot):
         # pygame.draw.circle(self.screen, robot.color, (int(robot.current_pos[0]), int(robot.current_pos[1])), 15)
 
-        pygame.draw.circle(self.screen, pygame.Color("brown"), robot.current_pos, self.tile_size/3.5,10)
+        pygame.draw.circle(self.screen, pygame.Color("brown"), robot.current_pos, self.tile_size/4.5,10)
         font = pygame.font.Font(None, 24)
         text = font.render(str(robot.robot_id), True, pygame.Color("black"))
         self.screen.blit(text, robot.current_pos)
