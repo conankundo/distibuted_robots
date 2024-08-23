@@ -58,7 +58,9 @@ def main():
         # clear everything                        
         screen.fill('white')
         text_surf.fill('white')
-        
+        f = open("report.txt","a")
+        f.write("check1\n")
+        f.close()
         x = 0
         # render each letter of the current sentence one by one
         for (idx, (letter, metric)) in enumerate(zip(current, metrics)):

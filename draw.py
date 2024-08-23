@@ -7,6 +7,7 @@ import random
 from pathPlanning import *
 import time
 from moveRule import *
+from datetime import datetime
 
 frame =  0
 class DRAW:
@@ -202,12 +203,13 @@ class DRAW:
         
         
         ##--------------------- Create a map
+        
         running = True
         while running:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
-                    
+            f_report = True
             self.screen.fill(WHITE)
             self.draw_map()
             self.move_robot = 0
@@ -295,19 +297,29 @@ class DRAW:
             font = pygame.font.Font(None, 18)
             global frame 
             frame += 1
-            timer = frame // 120
-            output_text = (f'Time: {timer}' +
+            # timer = frame // 120
+            c = datetime.now()
+            
+            output_text = (c.strftime('%H:%M:%S') +
+                           f'||Sec counter: {frame//120}' +
                            f'||Transfered: {goods}' +
                            f'||Input: {len(self.order0)}' + 
                            f'||Output: {len(self.pos_posible)}' + 
                            f'||Moving: {self.move_robot}'+
                            f'||Error: {self.error}')
-            text = font.render(output_text,True, pygame.Color("black"))
-            self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
+            # text = font.render(output_text,True, pygame.Color("black"))
+            # self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
+            
             ##------------------------------
-            if (timer % 120 == 0 and timer > 120) :
+            # if (timer % 120 == 0 and timer > 120) :
+            if (frame >=2*120 and frame % (9*120) == 0 and f_report) :
                 print(output_text)
-            pygame.display.flip()
+                f = open("report.txt","a")
+                f.write(output_text + '\n')
+                f.close()
+                f_report = False
+            
+            # pygame.display.flip()
             self.clock.tick(120)
             # print("robots[0].target_pos:",robots[0].target_pos)    # đoạn này in ra để check thông số xem có gì lỗi ko
             # print("robots[0].current_pos:",robots[0].current_pos) 
@@ -321,9 +333,8 @@ class DRAW:
 
 
 if __name__ == "__main__":
-    num_robot = 50
+    num_robot = 150
     head = "map4"
-
     map = moveRule(head + ".csv")
     astar = Algorithm(map.adj_list, map.map_matrix)
     grid = GRAPH(head +"_unmark.csv")
@@ -331,7 +342,12 @@ if __name__ == "__main__":
     # path_test = astar.Astar(0, 115)
     # print("path_test 0-->115:",path_test)
     # print(draw.map_matrix)
-
+    f = open("report.txt","a")
+    f.write('\n' + 
+            '------------------------------' +
+            f'{datetime.now().strftime('%Y-%m-%d | %H:%M:%S')}'+
+            '-----------------------------' '\n')
+    f.close()
     draw.plot()
     
 
