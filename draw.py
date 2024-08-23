@@ -304,7 +304,7 @@ class DRAW:
                            f'||Transfered: {goods}' +
                            f'||NumRobot: {len(robots)}' + 
                            f'||Input-Output: {len(self.order0)}-{len(self.pos_posible)}' + 
-                           f'||Moving: {self.move_robot})')
+                           f'||Moving: {self.move_robot}')
                            
             text = font.render(output_text,True, pygame.Color("black"))
             output_error = font.render(f'||Error: {self.error}',True, pygame.Color("black"))
@@ -316,7 +316,7 @@ class DRAW:
             if frame > 9*120:
                 print(output_text)
                 f = open("report.txt","a")
-                f.write(output_text + '\n')
+                f.write(output_text +f'||Error: {self.error} \n')
                 f.close()
                 # f_report = False
                 frame = 0
