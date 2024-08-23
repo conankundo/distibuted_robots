@@ -9,7 +9,7 @@ import time
 from moveRule import *
 from datetime import datetime
 
-frame =  0
+
 class DRAW:
     def __init__(self,map_matrix):
         self.tile_size = 700//len(map_matrix)
@@ -203,7 +203,7 @@ class DRAW:
         
         
         ##--------------------- Create a map
-        
+        frame =  0
         running = True
         while running:
             for event in pygame.event.get():
@@ -295,7 +295,7 @@ class DRAW:
             pygame.draw.rect(self.screen, pygame.Color('gray'),[panel_pos[0],panel_pos[1],panel_size[0], panel_size[1]])
             
             font = pygame.font.Font(None, 18)
-            global frame 
+            frame 
             frame += 1
             # timer = frame // 120
             c = datetime.now()
@@ -303,12 +303,12 @@ class DRAW:
             output_text = (c.strftime('%H:%M:%S') +
                            f'||Sec counter: {frame//120}' +
                            f'||Transfered: {goods}' +
-                           f'||Input: {len(self.order0)}' + 
-                           f'||Output: {len(self.pos_posible)}' + 
+                           f'||NumRobot: {len(robots)}' + 
+                           f'||Input-Output: {len(self.order0)}-{len(self.pos_posible)}' + 
                            f'||Moving: {self.move_robot}'+
                            f'||Error: {self.error}')
-            # text = font.render(output_text,True, pygame.Color("black"))
-            # self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
+            text = font.render(output_text,True, pygame.Color("black"))
+            self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
             
             ##------------------------------
             # if (timer % 120 == 0 and timer > 120) :
@@ -319,7 +319,7 @@ class DRAW:
                 f.close()
                 f_report = False
             
-            # pygame.display.flip()
+            pygame.display.flip()
             self.clock.tick(120)
             # print("robots[0].target_pos:",robots[0].target_pos)    # đoạn này in ra để check thông số xem có gì lỗi ko
             # print("robots[0].current_pos:",robots[0].current_pos) 
