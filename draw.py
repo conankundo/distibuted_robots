@@ -57,13 +57,13 @@ class DRAW:
     def draw_robot(self,robot):
         # pygame.draw.circle(self.screen, robot.color, (int(robot.current_pos[0]), int(robot.current_pos[1])), 15)
         if(robot.task == 0):
-            pygame.draw.circle(self.screen, pygame.Color("brown"), robot.current_pos, self.tile_size/4,10)
-            font = pygame.font.Font(None, 24)
+            pygame.draw.circle(self.screen, pygame.Color("brown"), robot.current_pos, self.tile_size//4,10)
+            font = pygame.font.Font(None, int(self.tile_size*1.5))
             text = font.render(str(robot.robot_id), True, pygame.Color("black"))
             self.screen.blit(text, robot.current_pos)
         if(robot.task == 1):
-            pygame.draw.circle(self.screen, pygame.Color("blue"), robot.current_pos, self.tile_size/4,10)
-            font = pygame.font.Font(None, 24)
+            pygame.draw.circle(self.screen, pygame.Color("blue"), robot.current_pos, self.tile_size//4,10)
+            font = pygame.font.Font(None, int(self.tile_size*1.5))
             text = font.render(str(robot.robot_id), True, pygame.Color("black"))
             self.screen.blit(text, robot.current_pos)
         # print(robot.current_pos)
@@ -120,11 +120,11 @@ class DRAW:
         # for point in path:
         #     pygame.draw.circle(self.screen, pygame.Color('blue'), self.centers[point], 5)
         if(len(path) > 0):
-            pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[- 1]], 10,3)
+            # pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[- 1]], self.tile_size//2,3)
             if((path[-1] in self.order0)) or (path[-1] in self.order1):
                 self.draw_target(self.centers[path[len(path) - 1]])
             else:
-                pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[len(path) - 1]], 10,3)
+                pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[len(path) - 1]], self.tile_size//2,3)
             # pygame.draw.rect(self.screen, pygame.Color('darkorange'), self.get_rect(self.getCoordinate(path[len(path) - 1])[1], self.getCoordinate(path[len(path) - 1])[0]), 3)
             # font = pygame.font.Font(None, 24)
             # text = font.render(str(robot.robot_id), True, pygame.Color("black"))
@@ -313,7 +313,7 @@ class DRAW:
             ##------------------------------
             # if (timer % 120 == 0 and timer > 120) :
             # if (frame >=2*120 and frame % (9*120) == 0 and frame > 120) :
-            if frame > 9*120:
+            if frame > 5*120:
                 print(output_text)
                 f = open("report.txt","a")
                 f.write(output_text +f'||Error: {self.error} \n')
