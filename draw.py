@@ -209,7 +209,7 @@ class DRAW:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
-            f_report = True
+            # f_report = True
             self.screen.fill(WHITE)
             self.draw_map()
             self.move_robot = 0
@@ -265,8 +265,8 @@ class DRAW:
                 if robot.status != 3:
                     robot.followPath(robot.path, self.occupied_waypoints, len(self.map_matrix))  # map = square --> length == width
                     self.move_robot += 1
-                # self.draw_robot(robot)
-                # self.drawMove(robot.path, robot)
+                self.draw_robot(robot)
+                self.drawMove(robot.path, robot)
             
 
             map2checkInside = pygame.Rect(0, 0, self.width, self.height)
@@ -295,7 +295,6 @@ class DRAW:
             pygame.draw.rect(self.screen, pygame.Color('gray'),[panel_pos[0],panel_pos[1],panel_size[0], panel_size[1]])
             
             font = pygame.font.Font(None, 18)
-            frame 
             frame += 1
             # timer = frame // 120
             c = datetime.now()
@@ -305,20 +304,23 @@ class DRAW:
                            f'||Transfered: {goods}' +
                            f'||NumRobot: {len(robots)}' + 
                            f'||Input-Output: {len(self.order0)}-{len(self.pos_posible)}' + 
-                           f'||Moving: {self.move_robot}'+
-                           f'||Error: {self.error}')
+                           f'||Moving: {self.move_robot})')
+                           
             text = font.render(output_text,True, pygame.Color("black"))
+            output_error = font.render(f'||Error: {self.error}',True, pygame.Color("black"))
             self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
-            
+            self.screen.blit(output_error, [panel_pos[0]+10,panel_pos[1]+30])
             ##------------------------------
             # if (timer % 120 == 0 and timer > 120) :
-            if (frame >=2*120 and frame % (9*120) == 0 and f_report) :
+            # if (frame >=2*120 and frame % (9*120) == 0 and frame > 120) :
+            if frame > 9*120:
                 print(output_text)
                 f = open("report.txt","a")
                 f.write(output_text + '\n')
                 f.close()
-                f_report = False
-            
+                # f_report = False
+                frame = 0
+
             pygame.display.flip()
             self.clock.tick(120)
             # print("robots[0].target_pos:",robots[0].target_pos)    # đoạn này in ra để check thông số xem có gì lỗi ko
