@@ -33,6 +33,14 @@ class DRAW:
         self.order1 = []
         self.occupied_waypoints = []
         self.move_robot = 0
+        self.map2checkInside = pygame.Rect(0, 0, self.width, self.height)
+        ##--------------##
+        self.toPickup = 0
+        self.toDropOff = 0
+        self.listPosToPickUp = []
+        self.listPosToDropOff = []
+        self.listRobotToPickUp = []
+        self.listRobotToDropOff = []
     def get_rect(self,x, y):
         return x * self.tile_size, y * self.tile_size, self.tile_size, self.tile_size
     
@@ -58,12 +66,12 @@ class DRAW:
         # pygame.draw.circle(self.screen, robot.color, (int(robot.current_pos[0]), int(robot.current_pos[1])), 15)
         if(robot.task == 0):
             pygame.draw.circle(self.screen, pygame.Color("brown"), robot.current_pos, self.tile_size//4,10)
-            font = pygame.font.Font(None, int(self.tile_size*1.5))
+            font = pygame.font.Font(None, self.tile_size)
             text = font.render(str(robot.robot_id), True, pygame.Color("black"))
             self.screen.blit(text, robot.current_pos)
         if(robot.task == 1):
             pygame.draw.circle(self.screen, pygame.Color("blue"), robot.current_pos, self.tile_size//4,10)
-            font = pygame.font.Font(None, int(self.tile_size*1.5))
+            font = pygame.font.Font(None, self.tile_size)
             text = font.render(str(robot.robot_id), True, pygame.Color("black"))
             self.screen.blit(text, robot.current_pos)
         # print(robot.current_pos)
@@ -72,7 +80,7 @@ class DRAW:
         #     if i > 0:
         #         pygame.draw.line(self.screen, (255,215,0), (int(robot.trace[i][0]), int(robot.trace[i][1])), (int(robot.trace[i-1][0]), int(robot.trace[i-1][1])), 2)
     def draw_target(self, target_pos): 
-        pygame.draw.circle(self.screen, pygame.Color("red"), target_pos, self.tile_size/5, 10)
+        pygame.draw.circle(self.screen, pygame.Color("red"), target_pos, self.tile_size//5, 10)
 
     def get_pos_posible(self):
         rows, cols = len(self.map_matrix), len(self.map_matrix[0])
@@ -87,6 +95,12 @@ class DRAW:
             for col in range(cols):
                 if self.map_matrix[row][col] == 3:
                     self.order0.append(self.get_index(row, col))
+    def get_order1(self):
+        rows, cols = len(self.map_matrix), len(self.map_matrix[0])
+        for row in range(rows):
+            for col in range(cols):
+                if self.map_matrix[row][col] == 5:
+                    self.order1.append(self.get_index(row, col))
 
     def draw_map(self):
         rows, cols = len(self.map_matrix), len(self.map_matrix[0])
@@ -106,7 +120,7 @@ class DRAW:
                     pygame.draw.rect(self.screen, pygame.Color("white"), (col * self.tile_size, row * self.tile_size, self.tile_size, self.tile_size))
                 elif self.map_matrix[row][col] == 5:
                     # self.order1.append(self.get_index(row, col))
-                    pygame.draw.rect(self.screen, (89,140,40), (col * self.tile_size, row * self.tile_size, self.tile_size, self.tile_size))
+                    pygame.draw.rect(self.screen, pygame.Color("yellow"), (col * self.tile_size, row * self.tile_size, self.tile_size, self.tile_size))
                 elif self.map_matrix[row][col] == 6:
                     pygame.draw.rect(self.screen, (13,100,150), (col * self.tile_size, row * self.tile_size, self.tile_size, self.tile_size))
                 elif self.map_matrix[row][col] == 7:
@@ -118,9 +132,9 @@ class DRAW:
         
     def drawMove(self,path,robot):
         # for point in path:
-        #     pygame.draw.circle(self.screen, pygame.Color('blue'), self.centers[point], 5)
+        #     pygame.draw.circle(self.screen, pygame.Color('blue'), sel f.centers[point], 5)
         if(len(path) > 0):
-            # pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[- 1]], self.tile_size//2,3)
+            pygame.draw.circle(self.screen, pygame.Color('darkorange'), self.centers[path[- 1]], self.tile_size//2,3)
             if((path[-1] in self.order0)) or (path[-1] in self.order1):
                 self.draw_target(self.centers[path[len(path) - 1]])
             else:
@@ -159,6 +173,19 @@ class DRAW:
                 target.append(ran)
                 point.remove(ran)
         return init, target
+    def clean(self):
+        self.toPickup = 0
+        self.toDropOff = 0
+        self.listPosToPickUp = []
+        self.listPosToDropOff = []
+        self.listRobotToPickUp = []
+        self.listRobotToDropOff = []
+
+    def compare_path(list_path, package_weight):
+        energy_estimate = []
+        for count,path in enumerate(list_path):
+            energy_estimate.append(package_weight*len(path))
+        return [min(energy_estimate), energy_estimate.index(min(energy_estimate))]
 
     def plot(self):
         WHITE = (255, 255, 255)
@@ -172,6 +199,7 @@ class DRAW:
         robots_temp = []
         self.get_pos_posible()
         self.get_order0()
+        self.get_order1()
         # print("length of self.pos_posible:",len(self.pos_posible))
         ## map lớn
 
@@ -219,18 +247,56 @@ class DRAW:
             
             for i,robots in enumerate(robots_temp):
                 self.occupied_waypoints.append(self.get_robot_pos(robots.current_pos))
+                # Đếm xem có n robot cần drop, m robot cần Pick
+                if robots.task == 0 and robots.path == []:
+                    self.toPickup += 1 
+                    self.listRobotToPickUp.append(robots.robot_id)
+                elif robots.task == 1 and robots.path == []:
+                    self.toDropOff += 1
+                    self.listRobotToDropOff.append(robots.robot_id)
             # print(self.occupied_waypoints)
 
-            for robot in robots_temp:
-                if robot.task == 0 and robot.path == []:
-                    targett = self.order0[random.randint(0, len(self.order0)-1)]
-                    robot.path = astar.Astar(self.get_robot_pos(robot.current_pos), targett)
-                    robot.task = 1
-                    goods += 1
-                elif robot.task == 1 and robot.path == []:
-                    targett = self.pos_posible[random.randint(0, len(self.pos_posible)-1)]
-                    robot.path = astar.Astar(self.get_robot_pos(robot.current_pos), targett)
-                    robot.task = 0
+            # for robot in robots_temp:
+                # if robot.task == 0 and robot.path == []:
+                #     self.toPickup += 1
+                #     targett = self.order0[random.randint(0, len(self.order0)-1)]
+                #     robot.path = astar.Astar(self.get_robot_pos(robot.current_pos), targett)
+                #     robot.task = 1
+                #     goods += 1
+                # elif robot.task == 1 and robot.path == []:
+                #     self.toDropOff += 1
+                #     targett = self.pos_posible[random.randint(0, len(self.pos_posible)-1)]
+                #     robot.path = astar.Astar(self.get_robot_pos(robot.current_pos), targett)
+                #     robot.task = 0
+                # # Đếm xem có n robot cần drop, m robot cần Pick
+                # if robot.task == 0 and robot.path == []:
+                #     self.toPickup += 1 
+                #     self.listRobotToPickUp.append(robot.robot_id)
+                # elif robot.task == 1 and robot.path == []:
+                #     self.toDropOff += 1
+                #     self.listRobotToPickUp.append(robot.robot_id)
+            
+            # Chon ra n điểm drop, m điểm Pick đúng với số lượng robot cần
+            self.listPosToDropOff = random.sample(self.pos_posible, self.toDropOff)
+            self.listPosToPickUp = random.sample(self.order0, self.toPickup)
+            
+            
+            for j, RBDrop in enumerate(self.listRobotToDropOff):
+                # path = [] 
+                weight = 2 
+                robots_temp[RBDrop].path = astar.Astar(self.get_robot_pos(robots_temp[RBDrop].current_pos), self.listPosToDropOff[j])
+                # ans = compare_path[path, weight]
+                robots_temp[RBDrop].task = 0
+                # print(ans)
+
+            for i, RBPick in enumerate(self.listRobotToPickUp):
+                # path = [] 
+                weight = 2 
+                robots_temp[RBPick].path = astar.Astar(self.get_robot_pos(robots_temp[RBPick].current_pos), self.listPosToPickUp[i])
+                # ans = compare_path[path, weight]
+                robots_temp[RBPick].task = 1
+                goods += 1
+
 
             for robot in robots_temp:
                 if robot.status == 3:
@@ -269,12 +335,12 @@ class DRAW:
                 self.drawMove(robot.path, robot)
             
 
-            map2checkInside = pygame.Rect(0, 0, self.width, self.height)
+            
             for robot in robots:
                 robot2check = pygame.Rect(robot.current_pos[0], robot.current_pos[1], 2,2)
                 # pos = pygame.mouse.get_pos()
                 # robot2check = pygame.Rect(pos[0], pos[1], 2,2)
-                if not map2checkInside.contains(robot2check) and not robot.robot_id in self.error:
+                if not self.map2checkInside.contains(robot2check) and not robot.robot_id in self.error:
                     self.error.append(robot.robot_id)
                     
 
@@ -302,25 +368,28 @@ class DRAW:
             output_text = (c.strftime('%H:%M:%S') +
                            f'||Sec counter: {frame//120}' +
                            f'||Transfered: {goods}' +
-                           f'||NumRobot: {len(robots)}' + 
-                           f'||Input-Output: {len(self.order0)}-{len(self.pos_posible)}' + 
+                           f'||NumRobot: {len(robots)}' +  
                            f'||Moving: {self.move_robot}')
                            
             text = font.render(output_text,True, pygame.Color("black"))
-            output_error = font.render(f'||Error: {self.error}',True, pygame.Color("black"))
+            output_error = font.render(f'||Error: {self.error}'+
+                                       f'||Input-Output: {len(self.order0)}-{len(self.pos_posible)}' 
+                                       ,True, pygame.Color("black"))
             self.screen.blit(text, [panel_pos[0]+10,panel_pos[1]+10])
             self.screen.blit(output_error, [panel_pos[0]+10,panel_pos[1]+30])
             ##------------------------------
             # if (timer % 120 == 0 and timer > 120) :
             # if (frame >=2*120 and frame % (9*120) == 0 and frame > 120) :
-            if frame > 5*120:
-                print(output_text)
-                f = open("report.txt","a")
-                f.write(output_text +f'||Error: {self.error} \n')
-                f.close()
-                # f_report = False
-                frame = 0
-
+            # if frame > 5*120:
+            #     print(output_text)
+            #     f = open("report.txt","a")
+            #     f.write(output_text + f'||Error: {self.error}\n')
+            #     f.close()
+            #     # f_report = False
+            #     frame = 0
+            if self.toPickup != 0 or self.toDropOff != 0:
+                print("RobottoPickUp-RobottoDropOff-listPosPick-listPosDrop",self.listRobotToPickUp,self.listRobotToDropOff, self.listPosToPickUp, self.listPosToDropOff)
+            self.clean()
             pygame.display.flip()
             self.clock.tick(120)
             # print("robots[0].target_pos:",robots[0].target_pos)    # đoạn này in ra để check thông số xem có gì lỗi ko
@@ -335,7 +404,7 @@ class DRAW:
 
 
 if __name__ == "__main__":
-    num_robot = 150
+    num_robot = 140
     head = "map4"
     map = moveRule(head + ".csv")
     astar = Algorithm(map.adj_list, map.map_matrix)

@@ -474,3 +474,801 @@ Time: 2||Transfered: 3||Input: 84||Output: 968||Moving: 50||Error: []
 ------------------------------2024-08-23 | 11:28:20-----------------------------
 
 ------------------------------2024-08-23 | 11:29:02-----------------------------
+
+------------------------------2024-08-23 | 13:31:42-----------------------------
+13:31:59||Sec counter: 5||Transfered: 65||NumRobot: 170||Moving: 166||Error: []
+13:32:14||Sec counter: 5||Transfered: 152||NumRobot: 170||Moving: 138||Error: []
+13:32:30||Sec counter: 5||Transfered: 214||NumRobot: 170||Moving: 161||Error: []
+13:32:46||Sec counter: 5||Transfered: 283||NumRobot: 170||Moving: 132||Error: []
+13:33:00||Sec counter: 5||Transfered: 347||NumRobot: 170||Moving: 154||Error: []
+13:33:16||Sec counter: 5||Transfered: 408||NumRobot: 170||Moving: 135||Error: []
+13:33:31||Sec counter: 5||Transfered: 472||NumRobot: 170||Moving: 141||Error: []
+13:33:46||Sec counter: 5||Transfered: 538||NumRobot: 170||Moving: 142||Error: []
+13:34:01||Sec counter: 5||Transfered: 605||NumRobot: 170||Moving: 146||Error: []
+13:34:16||Sec counter: 5||Transfered: 673||NumRobot: 170||Moving: 122||Error: []
+13:34:31||Sec counter: 5||Transfered: 730||NumRobot: 170||Moving: 157||Error: []
+13:34:47||Sec counter: 5||Transfered: 802||NumRobot: 170||Moving: 143||Error: []
+13:35:03||Sec counter: 5||Transfered: 865||NumRobot: 170||Moving: 137||Error: []
+13:35:19||Sec counter: 5||Transfered: 931||NumRobot: 170||Moving: 144||Error: []
+13:35:36||Sec counter: 5||Transfered: 1007||NumRobot: 170||Moving: 149||Error: []
+13:35:52||Sec counter: 5||Transfered: 1061||NumRobot: 170||Moving: 133||Error: []
+13:36:08||Sec counter: 5||Transfered: 1132||NumRobot: 170||Moving: 152||Error: []
+13:36:24||Sec counter: 5||Transfered: 1202||NumRobot: 170||Moving: 148||Error: []
+13:36:40||Sec counter: 5||Transfered: 1276||NumRobot: 170||Moving: 137||Error: []
+13:36:55||Sec counter: 5||Transfered: 1349||NumRobot: 170||Moving: 149||Error: []
+13:37:11||Sec counter: 5||Transfered: 1409||NumRobot: 170||Moving: 162||Error: []
+13:37:27||Sec counter: 5||Transfered: 1477||NumRobot: 170||Moving: 155||Error: []
+13:37:42||Sec counter: 5||Transfered: 1558||NumRobot: 170||Moving: 159||Error: []
+13:37:58||Sec counter: 5||Transfered: 1624||NumRobot: 170||Moving: 156||Error: []
+13:38:14||Sec counter: 5||Transfered: 1689||NumRobot: 170||Moving: 168||Error: []
+13:38:30||Sec counter: 5||Transfered: 1758||NumRobot: 170||Moving: 141||Error: []
+13:38:46||Sec counter: 5||Transfered: 1824||NumRobot: 170||Moving: 162||Error: []
+13:39:02||Sec counter: 5||Transfered: 1900||NumRobot: 170||Moving: 146||Error: []
+13:39:18||Sec counter: 5||Transfered: 1975||NumRobot: 170||Moving: 162||Error: []
+13:39:34||Sec counter: 5||Transfered: 2039||NumRobot: 170||Moving: 139||Error: []
+13:39:50||Sec counter: 5||Transfered: 2109||NumRobot: 170||Moving: 156||Error: []
+13:40:05||Sec counter: 5||Transfered: 2177||NumRobot: 170||Moving: 154||Error: []
+13:40:21||Sec counter: 5||Transfered: 2246||NumRobot: 170||Moving: 145||Error: []
+13:40:37||Sec counter: 5||Transfered: 2324||NumRobot: 170||Moving: 155||Error: []
+13:40:53||Sec counter: 5||Transfered: 2379||NumRobot: 170||Moving: 145||Error: []
+13:41:09||Sec counter: 5||Transfered: 2462||NumRobot: 170||Moving: 155||Error: []
+13:41:25||Sec counter: 5||Transfered: 2522||NumRobot: 170||Moving: 127||Error: []
+13:41:41||Sec counter: 5||Transfered: 2583||NumRobot: 170||Moving: 112||Error: []
+13:41:57||Sec counter: 5||Transfered: 2634||NumRobot: 170||Moving: 138||Error: []
+13:42:13||Sec counter: 5||Transfered: 2706||NumRobot: 170||Moving: 126||Error: []
+13:42:30||Sec counter: 5||Transfered: 2756||NumRobot: 170||Moving: 117||Error: []
+13:42:46||Sec counter: 5||Transfered: 2814||NumRobot: 170||Moving: 130||Error: []
+13:43:02||Sec counter: 5||Transfered: 2866||NumRobot: 170||Moving: 125||Error: []
+
+------------------------------2024-08-23 | 13:58:13-----------------------------
+13:58:31||Sec counter: 5||Transfered: 59||NumRobot: 160||Moving: 144||Error: []
+13:58:48||Sec counter: 5||Transfered: 150||NumRobot: 160||Moving: 146||Error: []
+13:59:06||Sec counter: 5||Transfered: 190||NumRobot: 160||Moving: 115||Error: []
+13:59:22||Sec counter: 5||Transfered: 236||NumRobot: 160||Moving: 140||Error: []
+13:59:38||Sec counter: 5||Transfered: 300||NumRobot: 160||Moving: 140||Error: []
+13:59:54||Sec counter: 5||Transfered: 368||NumRobot: 160||Moving: 135||Error: []
+14:00:10||Sec counter: 5||Transfered: 422||NumRobot: 160||Moving: 142||Error: []
+14:00:26||Sec counter: 5||Transfered: 493||NumRobot: 160||Moving: 156||Error: []
+14:00:41||Sec counter: 5||Transfered: 562||NumRobot: 160||Moving: 138||Error: []
+14:00:57||Sec counter: 5||Transfered: 632||NumRobot: 160||Moving: 137||Error: []
+14:01:12||Sec counter: 5||Transfered: 686||NumRobot: 160||Moving: 125||Error: []
+14:01:28||Sec counter: 5||Transfered: 757||NumRobot: 160||Moving: 141||Error: []
+14:01:43||Sec counter: 5||Transfered: 810||NumRobot: 160||Moving: 133||Error: []
+14:01:58||Sec counter: 5||Transfered: 876||NumRobot: 160||Moving: 160||Error: []
+14:02:13||Sec counter: 5||Transfered: 944||NumRobot: 160||Moving: 147||Error: []
+14:02:28||Sec counter: 5||Transfered: 1004||NumRobot: 160||Moving: 149||Error: []
+14:02:43||Sec counter: 5||Transfered: 1073||NumRobot: 160||Moving: 150||Error: []
+14:03:00||Sec counter: 5||Transfered: 1133||NumRobot: 160||Moving: 144||Error: []
+14:03:17||Sec counter: 5||Transfered: 1204||NumRobot: 160||Moving: 153||Error: []
+14:03:34||Sec counter: 5||Transfered: 1268||NumRobot: 160||Moving: 149||Error: []
+14:03:50||Sec counter: 5||Transfered: 1335||NumRobot: 160||Moving: 149||Error: []
+14:04:06||Sec counter: 5||Transfered: 1402||NumRobot: 160||Moving: 160||Error: []
+14:04:22||Sec counter: 5||Transfered: 1471||NumRobot: 160||Moving: 128||Error: []
+14:04:38||Sec counter: 5||Transfered: 1522||NumRobot: 160||Moving: 103||Error: []
+14:04:54||Sec counter: 5||Transfered: 1584||NumRobot: 160||Moving: 145||Error: []
+14:05:10||Sec counter: 5||Transfered: 1647||NumRobot: 160||Moving: 158||Error: []
+14:05:26||Sec counter: 5||Transfered: 1723||NumRobot: 160||Moving: 141||Error: []
+14:05:43||Sec counter: 5||Transfered: 1785||NumRobot: 160||Moving: 133||Error: []
+14:06:03||Sec counter: 5||Transfered: 1852||NumRobot: 160||Moving: 148||Error: []
+14:06:20||Sec counter: 5||Transfered: 1923||NumRobot: 160||Moving: 146||Error: []
+14:06:37||Sec counter: 5||Transfered: 1988||NumRobot: 160||Moving: 152||Error: []
+14:06:54||Sec counter: 5||Transfered: 2052||NumRobot: 160||Moving: 153||Error: []
+14:07:10||Sec counter: 5||Transfered: 2124||NumRobot: 160||Moving: 125||Error: []
+14:07:26||Sec counter: 5||Transfered: 2174||NumRobot: 160||Moving: 138||Error: []
+14:07:42||Sec counter: 5||Transfered: 2232||NumRobot: 160||Moving: 118||Error: []
+14:07:58||Sec counter: 5||Transfered: 2290||NumRobot: 160||Moving: 125||Error: []
+14:08:13||Sec counter: 5||Transfered: 2348||NumRobot: 160||Moving: 135||Error: []
+14:08:29||Sec counter: 5||Transfered: 2415||NumRobot: 160||Moving: 137||Error: []
+14:08:45||Sec counter: 5||Transfered: 2474||NumRobot: 160||Moving: 160||Error: []
+
+------------------------------2024-08-23 | 14:10:05-----------------------------
+14:10:20||Sec counter: 5||Transfered: 61||NumRobot: 150||Moving: 116||Error: []
+14:10:34||Sec counter: 5||Transfered: 134||NumRobot: 150||Moving: 143||Error: []
+14:10:49||Sec counter: 5||Transfered: 190||NumRobot: 150||Moving: 140||Error: []
+14:11:06||Sec counter: 5||Transfered: 261||NumRobot: 150||Moving: 129||Error: []
+14:11:22||Sec counter: 5||Transfered: 312||NumRobot: 150||Moving: 128||Error: []
+14:11:38||Sec counter: 5||Transfered: 367||NumRobot: 150||Moving: 145||Error: []
+14:11:54||Sec counter: 5||Transfered: 437||NumRobot: 150||Moving: 130||Error: []
+14:12:10||Sec counter: 5||Transfered: 496||NumRobot: 150||Moving: 139||Error: []
+14:12:26||Sec counter: 5||Transfered: 560||NumRobot: 150||Moving: 144||Error: []
+14:12:41||Sec counter: 5||Transfered: 617||NumRobot: 150||Moving: 120||Error: []
+14:12:57||Sec counter: 5||Transfered: 686||NumRobot: 150||Moving: 141||Error: []
+14:13:13||Sec counter: 5||Transfered: 751||NumRobot: 150||Moving: 139||Error: []
+14:13:28||Sec counter: 5||Transfered: 818||NumRobot: 150||Moving: 148||Error: []
+14:13:43||Sec counter: 5||Transfered: 887||NumRobot: 150||Moving: 137||Error: []
+14:13:56||Sec counter: 5||Transfered: 940||NumRobot: 150||Moving: 143||Error: []
+14:14:10||Sec counter: 5||Transfered: 1009||NumRobot: 150||Moving: 148||Error: []
+14:14:23||Sec counter: 5||Transfered: 1086||NumRobot: 150||Moving: 150||Error: []
+14:14:36||Sec counter: 5||Transfered: 1146||NumRobot: 150||Moving: 139||Error: []
+14:14:50||Sec counter: 5||Transfered: 1207||NumRobot: 150||Moving: 135||Error: []
+14:15:04||Sec counter: 5||Transfered: 1279||NumRobot: 150||Moving: 142||Error: []
+14:15:18||Sec counter: 5||Transfered: 1328||NumRobot: 150||Moving: 146||Error: []
+14:15:33||Sec counter: 5||Transfered: 1401||NumRobot: 150||Moving: 141||Error: []
+14:15:47||Sec counter: 5||Transfered: 1455||NumRobot: 150||Moving: 147||Error: []
+14:16:02||Sec counter: 5||Transfered: 1524||NumRobot: 150||Moving: 129||Error: []
+14:16:16||Sec counter: 5||Transfered: 1582||NumRobot: 150||Moving: 142||Error: []
+14:16:30||Sec counter: 5||Transfered: 1643||NumRobot: 150||Moving: 147||Error: []
+14:16:44||Sec counter: 5||Transfered: 1710||NumRobot: 150||Moving: 131||Error: []
+14:16:58||Sec counter: 5||Transfered: 1764||NumRobot: 150||Moving: 133||Error: []
+14:17:12||Sec counter: 5||Transfered: 1819||NumRobot: 150||Moving: 144||Error: []
+14:17:25||Sec counter: 5||Transfered: 1882||NumRobot: 150||Moving: 147||Error: []
+14:17:39||Sec counter: 5||Transfered: 1943||NumRobot: 150||Moving: 138||Error: []
+14:17:52||Sec counter: 5||Transfered: 2007||NumRobot: 150||Moving: 141||Error: []
+14:18:06||Sec counter: 5||Transfered: 2070||NumRobot: 150||Moving: 148||Error: []
+14:18:20||Sec counter: 5||Transfered: 2136||NumRobot: 150||Moving: 137||Error: []
+14:18:34||Sec counter: 5||Transfered: 2202||NumRobot: 150||Moving: 147||Error: []
+14:18:47||Sec counter: 5||Transfered: 2269||NumRobot: 150||Moving: 149||Error: []
+14:19:01||Sec counter: 5||Transfered: 2332||NumRobot: 150||Moving: 136||Error: []
+14:19:15||Sec counter: 5||Transfered: 2389||NumRobot: 150||Moving: 126||Error: []
+14:19:29||Sec counter: 5||Transfered: 2462||NumRobot: 150||Moving: 145||Error: []
+14:19:43||Sec counter: 5||Transfered: 2512||NumRobot: 150||Moving: 139||Error: []
+14:19:57||Sec counter: 5||Transfered: 2571||NumRobot: 150||Moving: 124||Error: []
+14:20:11||Sec counter: 5||Transfered: 2631||NumRobot: 150||Moving: 123||Error: []
+14:20:26||Sec counter: 5||Transfered: 2685||NumRobot: 150||Moving: 135||Error: []
+14:20:40||Sec counter: 5||Transfered: 2748||NumRobot: 150||Moving: 144||Error: []
+14:20:54||Sec counter: 5||Transfered: 2812||NumRobot: 150||Moving: 148||Error: []
+
+------------------------------2024-08-23 | 14:22:33-----------------------------
+14:22:51||Sec counter: 5||Transfered: 56||NumRobot: 180||Moving: 129||Error: []
+14:23:09||Sec counter: 5||Transfered: 141||NumRobot: 180||Moving: 145||Error: []
+14:23:27||Sec counter: 5||Transfered: 200||NumRobot: 180||Moving: 148||Error: []
+14:23:44||Sec counter: 5||Transfered: 272||NumRobot: 180||Moving: 126||Error: []
+14:24:02||Sec counter: 5||Transfered: 320||NumRobot: 180||Moving: 107||Error: []
+14:24:19||Sec counter: 5||Transfered: 374||NumRobot: 180||Moving: 113||Error: []
+14:24:36||Sec counter: 5||Transfered: 433||NumRobot: 180||Moving: 132||Error: []
+14:24:52||Sec counter: 5||Transfered: 502||NumRobot: 180||Moving: 145||Error: []
+14:25:09||Sec counter: 5||Transfered: 565||NumRobot: 180||Moving: 156||Error: []
+14:25:26||Sec counter: 5||Transfered: 632||NumRobot: 180||Moving: 149||Error: []
+14:25:42||Sec counter: 5||Transfered: 703||NumRobot: 180||Moving: 175||Error: []
+14:25:59||Sec counter: 5||Transfered: 781||NumRobot: 180||Moving: 153||Error: []
+14:26:15||Sec counter: 5||Transfered: 846||NumRobot: 180||Moving: 155||Error: []
+14:26:31||Sec counter: 5||Transfered: 917||NumRobot: 180||Moving: 154||Error: []
+14:26:49||Sec counter: 5||Transfered: 996||NumRobot: 180||Moving: 145||Error: []
+14:27:06||Sec counter: 5||Transfered: 1053||NumRobot: 180||Moving: 155||Error: []
+14:27:23||Sec counter: 5||Transfered: 1129||NumRobot: 180||Moving: 154||Error: []
+14:27:40||Sec counter: 5||Transfered: 1191||NumRobot: 180||Moving: 153||Error: []
+14:27:58||Sec counter: 5||Transfered: 1259||NumRobot: 180||Moving: 149||Error: []
+14:28:15||Sec counter: 5||Transfered: 1325||NumRobot: 180||Moving: 177||Error: []
+14:28:33||Sec counter: 5||Transfered: 1408||NumRobot: 180||Moving: 159||Error: []
+14:28:50||Sec counter: 5||Transfered: 1469||NumRobot: 180||Moving: 164||Error: []
+14:29:07||Sec counter: 5||Transfered: 1536||NumRobot: 180||Moving: 167||Error: []
+14:29:24||Sec counter: 5||Transfered: 1609||NumRobot: 180||Moving: 130||Error: []
+14:29:42||Sec counter: 5||Transfered: 1679||NumRobot: 180||Moving: 171||Error: []
+14:29:59||Sec counter: 5||Transfered: 1746||NumRobot: 180||Moving: 136||Error: []
+14:30:17||Sec counter: 5||Transfered: 1807||NumRobot: 180||Moving: 110||Error: []
+14:30:34||Sec counter: 5||Transfered: 1862||NumRobot: 180||Moving: 156||Error: []
+14:30:51||Sec counter: 5||Transfered: 1930||NumRobot: 180||Moving: 130||Error: []
+14:31:08||Sec counter: 5||Transfered: 1998||NumRobot: 180||Moving: 128||Error: []
+14:31:25||Sec counter: 5||Transfered: 2061||NumRobot: 180||Moving: 150||Error: []
+14:31:41||Sec counter: 5||Transfered: 2132||NumRobot: 180||Moving: 168||Error: []
+14:31:58||Sec counter: 5||Transfered: 2208||NumRobot: 180||Moving: 162||Error: []
+14:32:15||Sec counter: 5||Transfered: 2280||NumRobot: 180||Moving: 162||Error: []
+14:32:31||Sec counter: 5||Transfered: 2356||NumRobot: 180||Moving: 162||Error: []
+14:32:48||Sec counter: 5||Transfered: 2430||NumRobot: 180||Moving: 155||Error: []
+14:33:05||Sec counter: 5||Transfered: 2501||NumRobot: 180||Moving: 166||Error: []
+14:33:21||Sec counter: 5||Transfered: 2568||NumRobot: 180||Moving: 160||Error: []
+14:33:38||Sec counter: 5||Transfered: 2638||NumRobot: 180||Moving: 164||Error: []
+14:33:55||Sec counter: 5||Transfered: 2703||NumRobot: 180||Moving: 157||Error: []
+14:34:11||Sec counter: 5||Transfered: 2788||NumRobot: 180||Moving: 176||Error: []
+14:34:28||Sec counter: 5||Transfered: 2858||NumRobot: 180||Moving: 176||Error: []
+14:34:44||Sec counter: 5||Transfered: 2933||NumRobot: 180||Moving: 159||Error: []
+14:35:01||Sec counter: 5||Transfered: 2989||NumRobot: 180||Moving: 143||Error: []
+14:35:18||Sec counter: 5||Transfered: 3054||NumRobot: 180||Moving: 132||Error: []
+14:35:35||Sec counter: 5||Transfered: 3126||NumRobot: 180||Moving: 164||Error: []
+14:35:51||Sec counter: 5||Transfered: 3196||NumRobot: 180||Moving: 153||Error: []
+14:36:09||Sec counter: 5||Transfered: 3264||NumRobot: 180||Moving: 164||Error: []
+14:36:27||Sec counter: 5||Transfered: 3338||NumRobot: 180||Moving: 133||Error: []
+14:36:46||Sec counter: 5||Transfered: 3396||NumRobot: 180||Moving: 152||Error: []
+14:37:04||Sec counter: 5||Transfered: 3463||NumRobot: 180||Moving: 152||Error: []
+14:37:23||Sec counter: 5||Transfered: 3541||NumRobot: 180||Moving: 180||Error: []
+
+------------------------------2024-08-23 | 15:01:37-----------------------------
+15:01:51||Sec counter: 5||Transfered: 51||NumRobot: 140||Moving: 111||Error: []
+15:02:04||Sec counter: 5||Transfered: 117||NumRobot: 140||Moving: 131||Error: []
+15:02:17||Sec counter: 5||Transfered: 171||NumRobot: 140||Moving: 135||Error: []
+15:02:30||Sec counter: 5||Transfered: 236||NumRobot: 140||Moving: 138||Error: []
+15:02:44||Sec counter: 5||Transfered: 292||NumRobot: 140||Moving: 127||Error: []
+15:02:57||Sec counter: 5||Transfered: 345||NumRobot: 140||Moving: 138||Error: []
+15:03:10||Sec counter: 5||Transfered: 418||NumRobot: 140||Moving: 134||Error: []
+15:03:24||Sec counter: 5||Transfered: 468||NumRobot: 140||Moving: 136||Error: []
+15:03:38||Sec counter: 5||Transfered: 541||NumRobot: 140||Moving: 138||Error: []
+15:03:51||Sec counter: 5||Transfered: 598||NumRobot: 140||Moving: 132||Error: []
+15:04:04||Sec counter: 5||Transfered: 665||NumRobot: 140||Moving: 133||Error: []
+15:04:17||Sec counter: 5||Transfered: 714||NumRobot: 140||Moving: 136||Error: []
+15:04:29||Sec counter: 5||Transfered: 780||NumRobot: 140||Moving: 137||Error: []
+15:04:43||Sec counter: 5||Transfered: 837||NumRobot: 140||Moving: 130||Error: []
+15:04:55||Sec counter: 5||Transfered: 906||NumRobot: 140||Moving: 130||Error: []
+15:05:08||Sec counter: 5||Transfered: 955||NumRobot: 140||Moving: 134||Error: []
+15:05:21||Sec counter: 5||Transfered: 1014||NumRobot: 140||Moving: 125||Error: []
+15:05:34||Sec counter: 5||Transfered: 1078||NumRobot: 140||Moving: 138||Error: []
+15:05:46||Sec counter: 5||Transfered: 1139||NumRobot: 140||Moving: 135||Error: []
+15:06:00||Sec counter: 5||Transfered: 1200||NumRobot: 140||Moving: 123||Error: []
+15:06:13||Sec counter: 5||Transfered: 1256||NumRobot: 140||Moving: 132||Error: []
+15:06:26||Sec counter: 5||Transfered: 1312||NumRobot: 140||Moving: 137||Error: []
+15:06:39||Sec counter: 5||Transfered: 1369||NumRobot: 140||Moving: 139||Error: []
+15:06:52||Sec counter: 5||Transfered: 1435||NumRobot: 140||Moving: 137||Error: []
+15:07:05||Sec counter: 5||Transfered: 1488||NumRobot: 140||Moving: 130||Error: []
+15:07:19||Sec counter: 5||Transfered: 1560||NumRobot: 140||Moving: 133||Error: []
+15:07:32||Sec counter: 5||Transfered: 1613||NumRobot: 140||Moving: 119||Error: []
+15:07:47||Sec counter: 5||Transfered: 1673||NumRobot: 140||Moving: 139||Error: []
+15:08:00||Sec counter: 5||Transfered: 1735||NumRobot: 140||Moving: 126||Error: []
+15:08:15||Sec counter: 5||Transfered: 1789||NumRobot: 140||Moving: 133||Error: []
+15:08:30||Sec counter: 5||Transfered: 1856||NumRobot: 140||Moving: 136||Error: []
+15:08:43||Sec counter: 5||Transfered: 1909||NumRobot: 140||Moving: 123||Error: []
+15:08:59||Sec counter: 5||Transfered: 1960||NumRobot: 140||Moving: 108||Error: []
+15:09:11||Sec counter: 5||Transfered: 2020||NumRobot: 140||Moving: 140||Error: []
+15:09:24||Sec counter: 5||Transfered: 2081||NumRobot: 140||Moving: 135||Error: []
+15:09:36||Sec counter: 5||Transfered: 2133||NumRobot: 140||Moving: 135||Error: []
+15:09:49||Sec counter: 5||Transfered: 2192||NumRobot: 140||Moving: 120||Error: []
+15:10:02||Sec counter: 5||Transfered: 2253||NumRobot: 140||Moving: 123||Error: []
+15:10:14||Sec counter: 5||Transfered: 2315||NumRobot: 140||Moving: 139||Error: []
+15:10:26||Sec counter: 5||Transfered: 2368||NumRobot: 140||Moving: 136||Error: []
+15:10:39||Sec counter: 5||Transfered: 2436||NumRobot: 140||Moving: 122||Error: []
+15:10:52||Sec counter: 5||Transfered: 2494||NumRobot: 140||Moving: 135||Error: []
+15:11:05||Sec counter: 5||Transfered: 2545||NumRobot: 140||Moving: 131||Error: []
+15:11:18||Sec counter: 5||Transfered: 2603||NumRobot: 140||Moving: 138||Error: []
+15:11:31||Sec counter: 5||Transfered: 2672||NumRobot: 140||Moving: 140||Error: []
+15:11:44||Sec counter: 5||Transfered: 2734||NumRobot: 140||Moving: 139||Error: []
+15:11:57||Sec counter: 5||Transfered: 2784||NumRobot: 140||Moving: 129||Error: []
+15:12:10||Sec counter: 5||Transfered: 2844||NumRobot: 140||Moving: 131||Error: []
+15:12:23||Sec counter: 5||Transfered: 2911||NumRobot: 140||Moving: 136||Error: []
+15:12:35||Sec counter: 5||Transfered: 2982||NumRobot: 140||Moving: 132||Error: []
+
+------------------------------2024-08-23 | 15:18:07-----------------------------
+15:18:24||Sec counter: 5||Transfered: 49||NumRobot: 165||Moving: 125||Error: []
+15:18:40||Sec counter: 5||Transfered: 142||NumRobot: 165||Moving: 137||Error: []
+15:18:55||Sec counter: 5||Transfered: 202||NumRobot: 165||Moving: 157||Error: []
+15:19:10||Sec counter: 5||Transfered: 264||NumRobot: 165||Moving: 151||Error: []
+15:19:25||Sec counter: 5||Transfered: 345||NumRobot: 165||Moving: 141||Error: []
+15:19:40||Sec counter: 5||Transfered: 401||NumRobot: 165||Moving: 139||Error: []
+15:19:56||Sec counter: 5||Transfered: 472||NumRobot: 165||Moving: 157||Error: []
+15:20:11||Sec counter: 5||Transfered: 550||NumRobot: 165||Moving: 135||Error: []
+15:20:26||Sec counter: 5||Transfered: 604||NumRobot: 165||Moving: 143||Error: []
+15:20:41||Sec counter: 5||Transfered: 689||NumRobot: 165||Moving: 144||Error: []
+15:20:57||Sec counter: 5||Transfered: 748||NumRobot: 165||Moving: 149||Error: []
+15:21:12||Sec counter: 5||Transfered: 814||NumRobot: 165||Moving: 161||Error: []
+15:21:27||Sec counter: 5||Transfered: 884||NumRobot: 165||Moving: 149||Error: []
+15:21:42||Sec counter: 5||Transfered: 952||NumRobot: 165||Moving: 138||Error: []
+15:21:58||Sec counter: 5||Transfered: 1010||NumRobot: 165||Moving: 161||Error: []
+15:22:13||Sec counter: 5||Transfered: 1083||NumRobot: 165||Moving: 128||Error: []
+15:22:28||Sec counter: 5||Transfered: 1132||NumRobot: 165||Moving: 125||Error: []
+15:22:43||Sec counter: 5||Transfered: 1199||NumRobot: 165||Moving: 147||Error: []
+15:22:59||Sec counter: 5||Transfered: 1248||NumRobot: 165||Moving: 122||Error: []
+15:23:16||Sec counter: 5||Transfered: 1313||NumRobot: 165||Moving: 162||Error: []
+15:23:34||Sec counter: 5||Transfered: 1385||NumRobot: 165||Moving: 140||Error: []
+15:23:51||Sec counter: 5||Transfered: 1449||NumRobot: 165||Moving: 147||Error: []
+15:24:10||Sec counter: 5||Transfered: 1528||NumRobot: 165||Moving: 158||Error: []
+15:24:27||Sec counter: 5||Transfered: 1594||NumRobot: 165||Moving: 153||Error: []
+15:24:44||Sec counter: 5||Transfered: 1668||NumRobot: 165||Moving: 159||Error: []
+15:25:01||Sec counter: 5||Transfered: 1728||NumRobot: 165||Moving: 133||Error: []
+15:25:18||Sec counter: 5||Transfered: 1800||NumRobot: 165||Moving: 128||Error: []
+15:25:36||Sec counter: 5||Transfered: 1860||NumRobot: 165||Moving: 149||Error: []
+15:25:54||Sec counter: 5||Transfered: 1931||NumRobot: 165||Moving: 151||Error: []
+15:26:11||Sec counter: 5||Transfered: 2004||NumRobot: 165||Moving: 138||Error: []
+15:26:29||Sec counter: 5||Transfered: 2071||NumRobot: 165||Moving: 141||Error: []
+15:26:46||Sec counter: 5||Transfered: 2139||NumRobot: 165||Moving: 152||Error: []
+15:27:04||Sec counter: 5||Transfered: 2205||NumRobot: 165||Moving: 140||Error: []
+15:27:21||Sec counter: 5||Transfered: 2266||NumRobot: 165||Moving: 161||Error: []
+15:27:37||Sec counter: 5||Transfered: 2355||NumRobot: 165||Moving: 146||Error: []
+15:27:53||Sec counter: 5||Transfered: 2409||NumRobot: 165||Moving: 139||Error: []
+15:28:08||Sec counter: 5||Transfered: 2474||NumRobot: 165||Moving: 137||Error: []
+15:28:23||Sec counter: 5||Transfered: 2532||NumRobot: 165||Moving: 138||Error: []
+15:28:38||Sec counter: 5||Transfered: 2599||NumRobot: 165||Moving: 150||Error: []
+15:28:52||Sec counter: 5||Transfered: 2679||NumRobot: 165||Moving: 162||Error: []
+15:29:08||Sec counter: 5||Transfered: 2742||NumRobot: 165||Moving: 144||Error: []
+
+------------------------------2024-08-23 | 16:10:11-----------------------------
+16:10:27||Sec counter: 5||Transfered: 64||NumRobot: 163||Moving: 143||Error: []
+16:10:42||Sec counter: 5||Transfered: 146||NumRobot: 163||Moving: 152||Error: []
+16:10:57||Sec counter: 5||Transfered: 200||NumRobot: 163||Moving: 157||Error: []
+16:11:13||Sec counter: 5||Transfered: 270||NumRobot: 163||Moving: 148||Error: []
+16:11:29||Sec counter: 5||Transfered: 347||NumRobot: 163||Moving: 125||Error: []
+16:11:45||Sec counter: 5||Transfered: 400||NumRobot: 163||Moving: 156||Error: []
+16:12:02||Sec counter: 5||Transfered: 466||NumRobot: 163||Moving: 151||Error: []
+16:12:22||Sec counter: 5||Transfered: 531||NumRobot: 163||Moving: 134||Error: []
+16:12:38||Sec counter: 5||Transfered: 602||NumRobot: 163||Moving: 153||Error: []
+16:12:53||Sec counter: 5||Transfered: 669||NumRobot: 163||Moving: 161||Error: []
+16:13:08||Sec counter: 5||Transfered: 738||NumRobot: 163||Moving: 131||Error: []
+16:13:23||Sec counter: 5||Transfered: 796||NumRobot: 163||Moving: 136||Error: []
+16:13:38||Sec counter: 5||Transfered: 866||NumRobot: 163||Moving: 155||Error: []
+16:13:52||Sec counter: 5||Transfered: 917||NumRobot: 163||Moving: 155||Error: []
+16:14:07||Sec counter: 5||Transfered: 997||NumRobot: 163||Moving: 140||Error: []
+16:14:24||Sec counter: 5||Transfered: 1062||NumRobot: 163||Moving: 126||Error: []
+16:14:41||Sec counter: 5||Transfered: 1115||NumRobot: 163||Moving: 146||Error: []
+16:14:57||Sec counter: 5||Transfered: 1193||NumRobot: 163||Moving: 136||Error: []
+16:15:13||Sec counter: 5||Transfered: 1255||NumRobot: 163||Moving: 143||Error: []
+16:15:29||Sec counter: 5||Transfered: 1317||NumRobot: 163||Moving: 159||Error: []
+16:15:45||Sec counter: 5||Transfered: 1388||NumRobot: 163||Moving: 141||Error: []
+16:16:00||Sec counter: 5||Transfered: 1455||NumRobot: 163||Moving: 154||Error: []
+16:16:15||Sec counter: 5||Transfered: 1530||NumRobot: 163||Moving: 143||Error: []
+16:16:30||Sec counter: 5||Transfered: 1599||NumRobot: 163||Moving: 119||Error: []
+16:16:46||Sec counter: 5||Transfered: 1641||NumRobot: 163||Moving: 135||Error: []
+16:17:02||Sec counter: 5||Transfered: 1711||NumRobot: 163||Moving: 137||Error: []
+16:17:17||Sec counter: 5||Transfered: 1765||NumRobot: 163||Moving: 126||Error: []
+16:17:32||Sec counter: 5||Transfered: 1839||NumRobot: 163||Moving: 143||Error: []
+16:17:48||Sec counter: 5||Transfered: 1897||NumRobot: 163||Moving: 144||Error: []
+16:18:03||Sec counter: 5||Transfered: 1962||NumRobot: 163||Moving: 156||Error: []
+16:18:18||Sec counter: 5||Transfered: 2035||NumRobot: 163||Moving: 157||Error: []
+16:18:34||Sec counter: 5||Transfered: 2096||NumRobot: 163||Moving: 151||Error: []
+16:18:49||Sec counter: 5||Transfered: 2158||NumRobot: 163||Moving: 148||Error: []
+16:19:04||Sec counter: 5||Transfered: 2223||NumRobot: 163||Moving: 125||Error: []
+16:19:19||Sec counter: 5||Transfered: 2285||NumRobot: 163||Moving: 155||Error: []
+16:19:33||Sec counter: 5||Transfered: 2352||NumRobot: 163||Moving: 143||Error: []
+16:19:49||Sec counter: 5||Transfered: 2424||NumRobot: 163||Moving: 157||Error: []
+16:20:05||Sec counter: 5||Transfered: 2498||NumRobot: 163||Moving: 146||Error: []
+16:20:21||Sec counter: 5||Transfered: 2559||NumRobot: 163||Moving: 153||Error: []
+16:20:36||Sec counter: 5||Transfered: 2628||NumRobot: 163||Moving: 142||Error: []
+16:20:51||Sec counter: 5||Transfered: 2692||NumRobot: 163||Moving: 155||Error: []
+
+------------------------------2024-08-26 | 08:15:51-----------------------------
+08:16:03||Sec counter: 5||Transfered: 49||NumRobot: 130||Moving: 128||Error: []
+08:16:15||Sec counter: 5||Transfered: 126||NumRobot: 130||Moving: 123||Error: []
+08:16:27||Sec counter: 5||Transfered: 167||NumRobot: 130||Moving: 120||Error: []
+08:16:38||Sec counter: 5||Transfered: 230||NumRobot: 130||Moving: 124||Error: []
+08:16:50||Sec counter: 5||Transfered: 287||NumRobot: 130||Moving: 123||Error: []
+08:17:02||Sec counter: 5||Transfered: 342||NumRobot: 130||Moving: 130||Error: []
+08:17:13||Sec counter: 5||Transfered: 395||NumRobot: 130||Moving: 130||Error: []
+08:17:25||Sec counter: 5||Transfered: 458||NumRobot: 130||Moving: 130||Error: []
+08:17:36||Sec counter: 5||Transfered: 510||NumRobot: 130||Moving: 125||Error: []
+08:17:48||Sec counter: 5||Transfered: 566||NumRobot: 130||Moving: 130||Error: []
+08:18:00||Sec counter: 5||Transfered: 624||NumRobot: 130||Moving: 129||Error: []
+08:18:12||Sec counter: 5||Transfered: 669||NumRobot: 130||Moving: 123||Error: []
+08:18:24||Sec counter: 5||Transfered: 731||NumRobot: 130||Moving: 126||Error: []
+08:18:35||Sec counter: 5||Transfered: 792||NumRobot: 130||Moving: 130||Error: []
+08:18:47||Sec counter: 5||Transfered: 845||NumRobot: 130||Moving: 123||Error: []
+08:18:58||Sec counter: 5||Transfered: 905||NumRobot: 130||Moving: 116||Error: []
+08:19:09||Sec counter: 5||Transfered: 960||NumRobot: 130||Moving: 120||Error: []
+08:19:21||Sec counter: 5||Transfered: 1018||NumRobot: 130||Moving: 114||Error: []
+08:19:32||Sec counter: 5||Transfered: 1077||NumRobot: 130||Moving: 126||Error: []
+08:19:43||Sec counter: 5||Transfered: 1121||NumRobot: 130||Moving: 124||Error: []
+08:19:55||Sec counter: 5||Transfered: 1181||NumRobot: 130||Moving: 125||Error: []
+08:20:07||Sec counter: 5||Transfered: 1240||NumRobot: 130||Moving: 128||Error: []
+08:20:19||Sec counter: 5||Transfered: 1297||NumRobot: 130||Moving: 130||Error: []
+08:20:31||Sec counter: 5||Transfered: 1353||NumRobot: 130||Moving: 128||Error: []
+08:20:43||Sec counter: 5||Transfered: 1400||NumRobot: 130||Moving: 122||Error: []
+08:20:54||Sec counter: 5||Transfered: 1459||NumRobot: 130||Moving: 123||Error: []
+08:21:05||Sec counter: 5||Transfered: 1514||NumRobot: 130||Moving: 109||Error: []
+08:21:17||Sec counter: 5||Transfered: 1559||NumRobot: 130||Moving: 129||Error: []
+08:21:28||Sec counter: 5||Transfered: 1628||NumRobot: 130||Moving: 112||Error: []
+08:21:40||Sec counter: 5||Transfered: 1676||NumRobot: 130||Moving: 110||Error: []
+08:21:51||Sec counter: 5||Transfered: 1718||NumRobot: 130||Moving: 123||Error: []
+08:22:02||Sec counter: 5||Transfered: 1782||NumRobot: 130||Moving: 111||Error: []
+08:22:14||Sec counter: 5||Transfered: 1830||NumRobot: 130||Moving: 106||Error: []
+08:22:25||Sec counter: 5||Transfered: 1878||NumRobot: 130||Moving: 124||Error: []
+08:22:36||Sec counter: 5||Transfered: 1941||NumRobot: 130||Moving: 122||Error: []
+08:22:48||Sec counter: 5||Transfered: 1995||NumRobot: 130||Moving: 124||Error: []
+08:22:59||Sec counter: 5||Transfered: 2056||NumRobot: 130||Moving: 120||Error: []
+08:23:10||Sec counter: 5||Transfered: 2112||NumRobot: 130||Moving: 122||Error: []
+08:23:21||Sec counter: 5||Transfered: 2167||NumRobot: 130||Moving: 126||Error: []
+08:23:33||Sec counter: 5||Transfered: 2220||NumRobot: 130||Moving: 123||Error: []
+08:23:44||Sec counter: 5||Transfered: 2284||NumRobot: 130||Moving: 125||Error: []
+08:23:55||Sec counter: 5||Transfered: 2338||NumRobot: 130||Moving: 128||Error: []
+08:24:06||Sec counter: 5||Transfered: 2394||NumRobot: 130||Moving: 121||Error: []
+08:24:17||Sec counter: 5||Transfered: 2446||NumRobot: 130||Moving: 130||Error: []
+08:24:28||Sec counter: 5||Transfered: 2506||NumRobot: 130||Moving: 122||Error: []
+08:24:39||Sec counter: 5||Transfered: 2563||NumRobot: 130||Moving: 129||Error: []
+08:24:51||Sec counter: 5||Transfered: 2628||NumRobot: 130||Moving: 115||Error: []
+08:25:02||Sec counter: 5||Transfered: 2682||NumRobot: 130||Moving: 123||Error: []
+08:25:14||Sec counter: 5||Transfered: 2743||NumRobot: 130||Moving: 123||Error: []
+08:25:25||Sec counter: 5||Transfered: 2787||NumRobot: 130||Moving: 129||Error: []
+08:25:37||Sec counter: 5||Transfered: 2850||NumRobot: 130||Moving: 129||Error: []
+08:25:48||Sec counter: 5||Transfered: 2906||NumRobot: 130||Moving: 126||Error: []
+08:26:00||Sec counter: 5||Transfered: 2963||NumRobot: 130||Moving: 126||Error: []
+08:26:11||Sec counter: 5||Transfered: 3022||NumRobot: 130||Moving: 128||Error: []
+08:26:22||Sec counter: 5||Transfered: 3081||NumRobot: 130||Moving: 126||Error: []
+08:26:33||Sec counter: 5||Transfered: 3138||NumRobot: 130||Moving: 124||Error: []
+08:26:44||Sec counter: 5||Transfered: 3187||NumRobot: 130||Moving: 123||Error: []
+08:26:55||Sec counter: 5||Transfered: 3249||NumRobot: 130||Moving: 116||Error: []
+08:27:07||Sec counter: 5||Transfered: 3305||NumRobot: 130||Moving: 124||Error: []
+08:27:18||Sec counter: 5||Transfered: 3354||NumRobot: 130||Moving: 124||Error: []
+08:27:29||Sec counter: 5||Transfered: 3416||NumRobot: 130||Moving: 115||Error: []
+08:27:40||Sec counter: 5||Transfered: 3477||NumRobot: 130||Moving: 130||Error: []
+08:27:52||Sec counter: 5||Transfered: 3524||NumRobot: 130||Moving: 127||Error: []
+08:28:05||Sec counter: 5||Transfered: 3589||NumRobot: 130||Moving: 126||Error: []
+08:28:18||Sec counter: 5||Transfered: 3641||NumRobot: 130||Moving: 123||Error: []
+08:28:30||Sec counter: 5||Transfered: 3700||NumRobot: 130||Moving: 129||Error: []
+08:28:42||Sec counter: 5||Transfered: 3751||NumRobot: 130||Moving: 127||Error: []
+08:28:54||Sec counter: 5||Transfered: 3805||NumRobot: 130||Moving: 129||Error: []
+08:29:05||Sec counter: 5||Transfered: 3862||NumRobot: 130||Moving: 130||Error: []
+08:29:17||Sec counter: 5||Transfered: 3920||NumRobot: 130||Moving: 129||Error: []
+08:29:29||Sec counter: 5||Transfered: 3974||NumRobot: 130||Moving: 125||Error: []
+08:29:41||Sec counter: 5||Transfered: 4026||NumRobot: 130||Moving: 122||Error: []
+08:29:52||Sec counter: 5||Transfered: 4088||NumRobot: 130||Moving: 129||Error: []
+08:30:03||Sec counter: 5||Transfered: 4148||NumRobot: 130||Moving: 123||Error: []
+08:30:14||Sec counter: 5||Transfered: 4210||NumRobot: 130||Moving: 129||Error: []
+08:30:25||Sec counter: 5||Transfered: 4258||NumRobot: 130||Moving: 108||Error: []
+08:30:36||Sec counter: 5||Transfered: 4312||NumRobot: 130||Moving: 114||Error: []
+08:30:47||Sec counter: 5||Transfered: 4366||NumRobot: 130||Moving: 117||Error: []
+08:30:58||Sec counter: 5||Transfered: 4413||NumRobot: 130||Moving: 130||Error: []
+08:31:09||Sec counter: 5||Transfered: 4475||NumRobot: 130||Moving: 130||Error: []
+08:31:20||Sec counter: 5||Transfered: 4531||NumRobot: 130||Moving: 124||Error: []
+08:31:31||Sec counter: 5||Transfered: 4584||NumRobot: 130||Moving: 125||Error: []
+08:31:42||Sec counter: 5||Transfered: 4643||NumRobot: 130||Moving: 120||Error: []
+08:31:53||Sec counter: 5||Transfered: 4698||NumRobot: 130||Moving: 128||Error: []
+08:32:04||Sec counter: 5||Transfered: 4764||NumRobot: 130||Moving: 125||Error: []
+08:32:15||Sec counter: 5||Transfered: 4809||NumRobot: 130||Moving: 125||Error: []
+08:32:26||Sec counter: 5||Transfered: 4874||NumRobot: 130||Moving: 127||Error: []
+
+------------------------------2024-08-26 | 08:41:47-----------------------------
+08:41:59||Sec counter: 5||Transfered: 48||NumRobot: 120||Moving: 118||Error: []
+08:42:10||Sec counter: 5||Transfered: 122||NumRobot: 120||Moving: 107||Error: []
+08:42:22||Sec counter: 5||Transfered: 158||NumRobot: 120||Moving: 111||Error: []
+08:42:33||Sec counter: 5||Transfered: 210||NumRobot: 120||Moving: 112||Error: []
+08:42:44||Sec counter: 5||Transfered: 268||NumRobot: 120||Moving: 115||Error: []
+08:42:55||Sec counter: 5||Transfered: 312||NumRobot: 120||Moving: 117||Error: []
+08:43:07||Sec counter: 5||Transfered: 359||NumRobot: 120||Moving: 111||Error: []
+08:43:18||Sec counter: 5||Transfered: 418||NumRobot: 120||Moving: 117||Error: []
+08:43:30||Sec counter: 5||Transfered: 475||NumRobot: 120||Moving: 115||Error: []
+08:43:42||Sec counter: 5||Transfered: 517||NumRobot: 120||Moving: 117||Error: []
+08:43:53||Sec counter: 5||Transfered: 571||NumRobot: 120||Moving: 116||Error: []
+08:44:04||Sec counter: 5||Transfered: 620||NumRobot: 120||Moving: 112||Error: []
+08:44:15||Sec counter: 5||Transfered: 670||NumRobot: 120||Moving: 115||Error: []
+08:44:26||Sec counter: 5||Transfered: 724||NumRobot: 120||Moving: 117||Error: []
+08:44:38||Sec counter: 5||Transfered: 770||NumRobot: 120||Moving: 118||Error: []
+08:44:49||Sec counter: 5||Transfered: 824||NumRobot: 120||Moving: 115||Error: []
+08:44:59||Sec counter: 5||Transfered: 877||NumRobot: 120||Moving: 116||Error: []
+08:45:11||Sec counter: 5||Transfered: 924||NumRobot: 120||Moving: 111||Error: []
+08:45:22||Sec counter: 5||Transfered: 976||NumRobot: 120||Moving: 116||Error: []
+08:45:32||Sec counter: 5||Transfered: 1033||NumRobot: 120||Moving: 114||Error: []
+08:45:43||Sec counter: 5||Transfered: 1086||NumRobot: 120||Moving: 111||Error: []
+08:45:54||Sec counter: 5||Transfered: 1136||NumRobot: 120||Moving: 114||Error: []
+08:46:05||Sec counter: 5||Transfered: 1194||NumRobot: 120||Moving: 116||Error: []
+08:46:16||Sec counter: 5||Transfered: 1239||NumRobot: 120||Moving: 120||Error: []
+08:46:27||Sec counter: 5||Transfered: 1292||NumRobot: 120||Moving: 108||Error: []
+08:46:39||Sec counter: 5||Transfered: 1350||NumRobot: 120||Moving: 117||Error: []
+08:46:50||Sec counter: 5||Transfered: 1400||NumRobot: 120||Moving: 109||Error: []
+08:47:01||Sec counter: 5||Transfered: 1455||NumRobot: 120||Moving: 118||Error: []
+08:47:12||Sec counter: 5||Transfered: 1511||NumRobot: 120||Moving: 120||Error: []
+08:47:23||Sec counter: 5||Transfered: 1570||NumRobot: 120||Moving: 119||Error: []
+08:47:34||Sec counter: 5||Transfered: 1621||NumRobot: 120||Moving: 119||Error: []
+08:47:44||Sec counter: 5||Transfered: 1665||NumRobot: 120||Moving: 117||Error: []
+08:47:55||Sec counter: 5||Transfered: 1723||NumRobot: 120||Moving: 107||Error: []
+08:48:05||Sec counter: 5||Transfered: 1777||NumRobot: 120||Moving: 111||Error: []
+08:48:16||Sec counter: 5||Transfered: 1823||NumRobot: 120||Moving: 120||Error: []
+08:48:27||Sec counter: 5||Transfered: 1881||NumRobot: 120||Moving: 120||Error: []
+08:48:38||Sec counter: 5||Transfered: 1933||NumRobot: 120||Moving: 118||Error: []
+08:48:50||Sec counter: 5||Transfered: 1992||NumRobot: 120||Moving: 118||Error: []
+08:49:03||Sec counter: 5||Transfered: 2046||NumRobot: 120||Moving: 120||Error: []
+08:49:15||Sec counter: 5||Transfered: 2100||NumRobot: 120||Moving: 102||Error: []
+08:49:26||Sec counter: 5||Transfered: 2143||NumRobot: 120||Moving: 120||Error: []
+08:49:37||Sec counter: 5||Transfered: 2197||NumRobot: 120||Moving: 110||Error: []
+08:49:48||Sec counter: 5||Transfered: 2256||NumRobot: 120||Moving: 120||Error: []
+08:49:59||Sec counter: 5||Transfered: 2301||NumRobot: 120||Moving: 120||Error: []
+08:50:11||Sec counter: 5||Transfered: 2348||NumRobot: 120||Moving: 120||Error: []
+08:50:22||Sec counter: 5||Transfered: 2404||NumRobot: 120||Moving: 118||Error: []
+08:50:33||Sec counter: 5||Transfered: 2456||NumRobot: 120||Moving: 109||Error: []
+08:50:44||Sec counter: 5||Transfered: 2504||NumRobot: 120||Moving: 119||Error: []
+08:50:55||Sec counter: 5||Transfered: 2556||NumRobot: 120||Moving: 119||Error: []
+08:51:05||Sec counter: 5||Transfered: 2611||NumRobot: 120||Moving: 116||Error: []
+08:51:17||Sec counter: 5||Transfered: 2666||NumRobot: 120||Moving: 112||Error: []
+08:51:28||Sec counter: 5||Transfered: 2718||NumRobot: 120||Moving: 114||Error: []
+08:51:40||Sec counter: 5||Transfered: 2763||NumRobot: 120||Moving: 113||Error: []
+08:51:52||Sec counter: 5||Transfered: 2827||NumRobot: 120||Moving: 118||Error: []
+08:52:03||Sec counter: 5||Transfered: 2874||NumRobot: 120||Moving: 120||Error: []
+08:52:15||Sec counter: 5||Transfered: 2918||NumRobot: 120||Moving: 109||Error: []
+08:52:26||Sec counter: 5||Transfered: 2957||NumRobot: 120||Moving: 115||Error: []
+08:52:37||Sec counter: 5||Transfered: 3020||NumRobot: 120||Moving: 120||Error: []
+08:52:47||Sec counter: 5||Transfered: 3074||NumRobot: 120||Moving: 119||Error: []
+08:52:58||Sec counter: 5||Transfered: 3125||NumRobot: 120||Moving: 104||Error: []
+08:53:09||Sec counter: 5||Transfered: 3180||NumRobot: 120||Moving: 119||Error: []
+08:53:21||Sec counter: 5||Transfered: 3232||NumRobot: 120||Moving: 119||Error: []
+08:53:33||Sec counter: 5||Transfered: 3281||NumRobot: 120||Moving: 120||Error: []
+08:53:44||Sec counter: 5||Transfered: 3336||NumRobot: 120||Moving: 119||Error: []
+08:53:56||Sec counter: 5||Transfered: 3385||NumRobot: 120||Moving: 117||Error: []
+08:54:07||Sec counter: 5||Transfered: 3437||NumRobot: 120||Moving: 120||Error: []
+08:54:18||Sec counter: 5||Transfered: 3481||NumRobot: 120||Moving: 118||Error: []
+08:54:30||Sec counter: 5||Transfered: 3544||NumRobot: 120||Moving: 116||Error: []
+08:54:41||Sec counter: 5||Transfered: 3591||NumRobot: 120||Moving: 115||Error: []
+
+------------------------------2024-08-26 | 08:56:16-----------------------------
+08:56:27||Sec counter: 5||Transfered: 50||NumRobot: 110||Moving: 99||Error: []
+08:56:38||Sec counter: 5||Transfered: 111||NumRobot: 110||Moving: 108||Error: []
+08:56:48||Sec counter: 5||Transfered: 149||NumRobot: 110||Moving: 103||Error: []
+08:56:58||Sec counter: 5||Transfered: 197||NumRobot: 110||Moving: 110||Error: []
+08:57:08||Sec counter: 5||Transfered: 248||NumRobot: 110||Moving: 106||Error: []
+08:57:18||Sec counter: 5||Transfered: 297||NumRobot: 110||Moving: 109||Error: []
+08:57:29||Sec counter: 5||Transfered: 341||NumRobot: 110||Moving: 103||Error: []
+08:57:39||Sec counter: 5||Transfered: 388||NumRobot: 110||Moving: 110||Error: []
+08:57:50||Sec counter: 5||Transfered: 442||NumRobot: 110||Moving: 110||Error: []
+08:57:59||Sec counter: 5||Transfered: 494||NumRobot: 110||Moving: 110||Error: []
+08:58:09||Sec counter: 5||Transfered: 532||NumRobot: 110||Moving: 107||Error: []
+08:58:19||Sec counter: 5||Transfered: 590||NumRobot: 110||Moving: 110||Error: []
+08:58:29||Sec counter: 5||Transfered: 632||NumRobot: 110||Moving: 100||Error: []
+08:58:39||Sec counter: 5||Transfered: 674||NumRobot: 110||Moving: 102||Error: []
+08:58:50||Sec counter: 5||Transfered: 733||NumRobot: 110||Moving: 110||Error: []
+08:59:01||Sec counter: 5||Transfered: 781||NumRobot: 110||Moving: 108||Error: []
+08:59:11||Sec counter: 5||Transfered: 831||NumRobot: 110||Moving: 103||Error: []
+08:59:22||Sec counter: 5||Transfered: 881||NumRobot: 110||Moving: 110||Error: []
+08:59:33||Sec counter: 5||Transfered: 929||NumRobot: 110||Moving: 106||Error: []
+08:59:44||Sec counter: 5||Transfered: 976||NumRobot: 110||Moving: 105||Error: []
+08:59:55||Sec counter: 5||Transfered: 1024||NumRobot: 110||Moving: 110||Error: []
+09:00:05||Sec counter: 5||Transfered: 1079||NumRobot: 110||Moving: 110||Error: []
+09:00:15||Sec counter: 5||Transfered: 1129||NumRobot: 110||Moving: 108||Error: []
+09:00:26||Sec counter: 5||Transfered: 1169||NumRobot: 110||Moving: 108||Error: []
+09:00:36||Sec counter: 5||Transfered: 1221||NumRobot: 110||Moving: 106||Error: []
+09:00:47||Sec counter: 5||Transfered: 1271||NumRobot: 110||Moving: 98||Error: []
+09:00:57||Sec counter: 5||Transfered: 1314||NumRobot: 110||Moving: 110||Error: []
+09:01:08||Sec counter: 5||Transfered: 1363||NumRobot: 110||Moving: 110||Error: []
+09:01:19||Sec counter: 5||Transfered: 1421||NumRobot: 110||Moving: 105||Error: []
+09:01:29||Sec counter: 5||Transfered: 1463||NumRobot: 110||Moving: 105||Error: []
+09:01:40||Sec counter: 5||Transfered: 1509||NumRobot: 110||Moving: 104||Error: []
+09:01:50||Sec counter: 5||Transfered: 1558||NumRobot: 110||Moving: 105||Error: []
+09:02:01||Sec counter: 5||Transfered: 1604||NumRobot: 110||Moving: 110||Error: []
+09:02:11||Sec counter: 5||Transfered: 1650||NumRobot: 110||Moving: 110||Error: []
+09:02:22||Sec counter: 5||Transfered: 1709||NumRobot: 110||Moving: 107||Error: []
+09:02:32||Sec counter: 5||Transfered: 1742||NumRobot: 110||Moving: 108||Error: []
+09:02:43||Sec counter: 5||Transfered: 1799||NumRobot: 110||Moving: 107||Error: []
+09:02:54||Sec counter: 5||Transfered: 1842||NumRobot: 110||Moving: 110||Error: []
+09:03:04||Sec counter: 5||Transfered: 1893||NumRobot: 110||Moving: 107||Error: []
+09:03:15||Sec counter: 5||Transfered: 1942||NumRobot: 110||Moving: 109||Error: []
+09:03:26||Sec counter: 5||Transfered: 1988||NumRobot: 110||Moving: 105||Error: []
+09:03:36||Sec counter: 5||Transfered: 2038||NumRobot: 110||Moving: 104||Error: []
+09:03:46||Sec counter: 5||Transfered: 2080||NumRobot: 110||Moving: 106||Error: []
+09:03:56||Sec counter: 5||Transfered: 2131||NumRobot: 110||Moving: 109||Error: []
+09:04:06||Sec counter: 5||Transfered: 2176||NumRobot: 110||Moving: 109||Error: []
+09:04:15||Sec counter: 5||Transfered: 2226||NumRobot: 110||Moving: 110||Error: []
+09:04:26||Sec counter: 5||Transfered: 2284||NumRobot: 110||Moving: 110||Error: []
+09:04:35||Sec counter: 5||Transfered: 2323||NumRobot: 110||Moving: 109||Error: []
+09:04:45||Sec counter: 5||Transfered: 2380||NumRobot: 110||Moving: 105||Error: []
+09:04:55||Sec counter: 5||Transfered: 2426||NumRobot: 110||Moving: 107||Error: []
+09:05:05||Sec counter: 5||Transfered: 2468||NumRobot: 110||Moving: 101||Error: []
+09:05:15||Sec counter: 5||Transfered: 2514||NumRobot: 110||Moving: 108||Error: []
+09:05:25||Sec counter: 5||Transfered: 2564||NumRobot: 110||Moving: 106||Error: []
+09:05:36||Sec counter: 5||Transfered: 2614||NumRobot: 110||Moving: 105||Error: []
+09:05:46||Sec counter: 5||Transfered: 2655||NumRobot: 110||Moving: 105||Error: []
+09:05:56||Sec counter: 5||Transfered: 2706||NumRobot: 110||Moving: 108||Error: []
+09:06:06||Sec counter: 5||Transfered: 2758||NumRobot: 110||Moving: 110||Error: []
+09:06:15||Sec counter: 5||Transfered: 2804||NumRobot: 110||Moving: 106||Error: []
+09:06:25||Sec counter: 5||Transfered: 2857||NumRobot: 110||Moving: 110||Error: []
+09:06:36||Sec counter: 5||Transfered: 2900||NumRobot: 110||Moving: 100||Error: []
+09:06:46||Sec counter: 5||Transfered: 2958||NumRobot: 110||Moving: 109||Error: []
+09:06:57||Sec counter: 5||Transfered: 3004||NumRobot: 110||Moving: 107||Error: []
+09:07:09||Sec counter: 5||Transfered: 3039||NumRobot: 110||Moving: 108||Error: []
+09:07:20||Sec counter: 5||Transfered: 3093||NumRobot: 110||Moving: 110||Error: []
+09:07:31||Sec counter: 5||Transfered: 3144||NumRobot: 110||Moving: 108||Error: []
+09:07:42||Sec counter: 5||Transfered: 3195||NumRobot: 110||Moving: 99||Error: []
+09:07:53||Sec counter: 5||Transfered: 3245||NumRobot: 110||Moving: 109||Error: []
+09:08:03||Sec counter: 5||Transfered: 3300||NumRobot: 110||Moving: 107||Error: []
+09:08:13||Sec counter: 5||Transfered: 3334||NumRobot: 110||Moving: 108||Error: []
+09:08:24||Sec counter: 5||Transfered: 3388||NumRobot: 110||Moving: 104||Error: []
+09:08:35||Sec counter: 5||Transfered: 3442||NumRobot: 110||Moving: 106||Error: []
+
+------------------------------2024-08-26 | 09:09:43-----------------------------
+09:09:51||Sec counter: 5||Transfered: 24||NumRobot: 60||Moving: 60||Error: []
+09:09:59||Sec counter: 5||Transfered: 59||NumRobot: 60||Moving: 60||Error: []
+09:10:06||Sec counter: 5||Transfered: 86||NumRobot: 60||Moving: 60||Error: []
+09:10:14||Sec counter: 5||Transfered: 110||NumRobot: 60||Moving: 60||Error: []
+09:10:22||Sec counter: 5||Transfered: 143||NumRobot: 60||Moving: 56||Error: []
+09:10:29||Sec counter: 5||Transfered: 171||NumRobot: 60||Moving: 60||Error: []
+09:10:37||Sec counter: 5||Transfered: 197||NumRobot: 60||Moving: 60||Error: []
+09:10:45||Sec counter: 5||Transfered: 225||NumRobot: 60||Moving: 60||Error: []
+09:10:53||Sec counter: 5||Transfered: 248||NumRobot: 60||Moving: 60||Error: []
+09:11:00||Sec counter: 5||Transfered: 272||NumRobot: 60||Moving: 60||Error: []
+09:11:08||Sec counter: 5||Transfered: 301||NumRobot: 60||Moving: 60||Error: []
+09:11:16||Sec counter: 5||Transfered: 328||NumRobot: 60||Moving: 60||Error: []
+09:11:25||Sec counter: 5||Transfered: 358||NumRobot: 60||Moving: 60||Error: []
+09:11:33||Sec counter: 5||Transfered: 379||NumRobot: 60||Moving: 60||Error: []
+09:11:40||Sec counter: 5||Transfered: 408||NumRobot: 60||Moving: 60||Error: []
+09:11:47||Sec counter: 5||Transfered: 431||NumRobot: 60||Moving: 59||Error: []
+09:11:55||Sec counter: 5||Transfered: 452||NumRobot: 60||Moving: 60||Error: []
+09:12:03||Sec counter: 5||Transfered: 490||NumRobot: 60||Moving: 60||Error: []
+09:12:11||Sec counter: 5||Transfered: 510||NumRobot: 60||Moving: 60||Error: []
+09:12:19||Sec counter: 5||Transfered: 542||NumRobot: 60||Moving: 60||Error: []
+09:12:26||Sec counter: 5||Transfered: 568||NumRobot: 60||Moving: 60||Error: []
+09:12:34||Sec counter: 5||Transfered: 597||NumRobot: 60||Moving: 60||Error: []
+09:12:41||Sec counter: 5||Transfered: 624||NumRobot: 60||Moving: 55||Error: []
+09:12:49||Sec counter: 5||Transfered: 649||NumRobot: 60||Moving: 60||Error: []
+09:12:57||Sec counter: 5||Transfered: 681||NumRobot: 60||Moving: 60||Error: []
+09:13:04||Sec counter: 5||Transfered: 713||NumRobot: 60||Moving: 60||Error: []
+09:13:12||Sec counter: 5||Transfered: 736||NumRobot: 60||Moving: 60||Error: []
+09:13:19||Sec counter: 5||Transfered: 762||NumRobot: 60||Moving: 60||Error: []
+09:13:27||Sec counter: 5||Transfered: 791||NumRobot: 60||Moving: 56||Error: []
+09:13:35||Sec counter: 5||Transfered: 821||NumRobot: 60||Moving: 60||Error: []
+09:13:42||Sec counter: 5||Transfered: 845||NumRobot: 60||Moving: 60||Error: []
+09:13:49||Sec counter: 5||Transfered: 874||NumRobot: 60||Moving: 56||Error: []
+09:13:56||Sec counter: 5||Transfered: 900||NumRobot: 60||Moving: 60||Error: []
+09:14:04||Sec counter: 5||Transfered: 931||NumRobot: 60||Moving: 60||Error: []
+09:14:11||Sec counter: 5||Transfered: 962||NumRobot: 60||Moving: 60||Error: []
+09:14:19||Sec counter: 5||Transfered: 990||NumRobot: 60||Moving: 60||Error: []
+09:14:26||Sec counter: 5||Transfered: 1015||NumRobot: 60||Moving: 59||Error: []
+09:14:33||Sec counter: 5||Transfered: 1043||NumRobot: 60||Moving: 60||Error: []
+09:14:41||Sec counter: 5||Transfered: 1069||NumRobot: 60||Moving: 60||Error: []
+09:14:48||Sec counter: 5||Transfered: 1100||NumRobot: 60||Moving: 60||Error: []
+09:14:55||Sec counter: 5||Transfered: 1123||NumRobot: 60||Moving: 60||Error: []
+09:15:02||Sec counter: 5||Transfered: 1153||NumRobot: 60||Moving: 58||Error: []
+09:15:09||Sec counter: 5||Transfered: 1183||NumRobot: 60||Moving: 60||Error: []
+09:15:17||Sec counter: 5||Transfered: 1204||NumRobot: 60||Moving: 60||Error: []
+09:15:24||Sec counter: 5||Transfered: 1235||NumRobot: 60||Moving: 57||Error: []
+09:15:31||Sec counter: 5||Transfered: 1264||NumRobot: 60||Moving: 60||Error: []
+09:15:39||Sec counter: 5||Transfered: 1288||NumRobot: 60||Moving: 60||Error: []
+09:15:46||Sec counter: 5||Transfered: 1316||NumRobot: 60||Moving: 60||Error: []
+09:15:53||Sec counter: 5||Transfered: 1342||NumRobot: 60||Moving: 60||Error: []
+09:16:01||Sec counter: 5||Transfered: 1370||NumRobot: 60||Moving: 60||Error: []
+09:16:09||Sec counter: 5||Transfered: 1398||NumRobot: 60||Moving: 60||Error: []
+09:16:17||Sec counter: 5||Transfered: 1422||NumRobot: 60||Moving: 60||Error: []
+09:16:25||Sec counter: 5||Transfered: 1452||NumRobot: 60||Moving: 60||Error: []
+09:16:33||Sec counter: 5||Transfered: 1477||NumRobot: 60||Moving: 60||Error: []
+09:16:41||Sec counter: 5||Transfered: 1501||NumRobot: 60||Moving: 60||Error: []
+09:16:49||Sec counter: 5||Transfered: 1536||NumRobot: 60||Moving: 60||Error: []
+09:16:58||Sec counter: 5||Transfered: 1558||NumRobot: 60||Moving: 60||Error: []
+09:17:05||Sec counter: 5||Transfered: 1586||NumRobot: 60||Moving: 60||Error: []
+09:17:13||Sec counter: 5||Transfered: 1609||NumRobot: 60||Moving: 60||Error: []
+09:17:21||Sec counter: 5||Transfered: 1632||NumRobot: 60||Moving: 60||Error: []
+09:17:29||Sec counter: 5||Transfered: 1663||NumRobot: 60||Moving: 60||Error: []
+09:17:37||Sec counter: 5||Transfered: 1690||NumRobot: 60||Moving: 60||Error: []
+09:17:45||Sec counter: 5||Transfered: 1719||NumRobot: 60||Moving: 60||Error: []
+09:17:53||Sec counter: 5||Transfered: 1746||NumRobot: 60||Moving: 60||Error: []
+09:18:01||Sec counter: 5||Transfered: 1771||NumRobot: 60||Moving: 60||Error: []
+09:18:08||Sec counter: 5||Transfered: 1800||NumRobot: 60||Moving: 60||Error: []
+09:18:15||Sec counter: 5||Transfered: 1821||NumRobot: 60||Moving: 60||Error: []
+09:18:23||Sec counter: 5||Transfered: 1848||NumRobot: 60||Moving: 60||Error: []
+09:18:31||Sec counter: 5||Transfered: 1878||NumRobot: 60||Moving: 60||Error: []
+09:18:39||Sec counter: 5||Transfered: 1904||NumRobot: 60||Moving: 60||Error: []
+09:18:47||Sec counter: 5||Transfered: 1934||NumRobot: 60||Moving: 60||Error: []
+09:18:54||Sec counter: 5||Transfered: 1957||NumRobot: 60||Moving: 60||Error: []
+09:19:02||Sec counter: 5||Transfered: 1982||NumRobot: 60||Moving: 60||Error: []
+09:19:11||Sec counter: 5||Transfered: 2006||NumRobot: 60||Moving: 60||Error: []
+09:19:18||Sec counter: 5||Transfered: 2039||NumRobot: 60||Moving: 60||Error: []
+09:19:26||Sec counter: 5||Transfered: 2061||NumRobot: 60||Moving: 59||Error: []
+09:19:33||Sec counter: 5||Transfered: 2096||NumRobot: 60||Moving: 60||Error: []
+09:19:41||Sec counter: 5||Transfered: 2116||NumRobot: 60||Moving: 60||Error: []
+09:19:48||Sec counter: 5||Transfered: 2144||NumRobot: 60||Moving: 57||Error: []
+09:19:56||Sec counter: 5||Transfered: 2169||NumRobot: 60||Moving: 60||Error: []
+09:20:04||Sec counter: 5||Transfered: 2195||NumRobot: 60||Moving: 60||Error: []
+09:20:11||Sec counter: 5||Transfered: 2227||NumRobot: 60||Moving: 60||Error: []
+09:20:18||Sec counter: 5||Transfered: 2256||NumRobot: 60||Moving: 60||Error: []
+09:20:26||Sec counter: 5||Transfered: 2280||NumRobot: 60||Moving: 60||Error: []
+09:20:33||Sec counter: 5||Transfered: 2304||NumRobot: 60||Moving: 60||Error: []
+09:20:40||Sec counter: 5||Transfered: 2334||NumRobot: 60||Moving: 60||Error: []
+09:20:48||Sec counter: 5||Transfered: 2362||NumRobot: 60||Moving: 59||Error: []
+09:20:55||Sec counter: 5||Transfered: 2387||NumRobot: 60||Moving: 59||Error: []
+09:21:02||Sec counter: 5||Transfered: 2416||NumRobot: 60||Moving: 60||Error: []
+09:21:10||Sec counter: 5||Transfered: 2437||NumRobot: 60||Moving: 60||Error: []
+09:21:17||Sec counter: 5||Transfered: 2461||NumRobot: 60||Moving: 60||Error: []
+09:21:24||Sec counter: 5||Transfered: 2489||NumRobot: 60||Moving: 60||Error: []
+09:21:32||Sec counter: 5||Transfered: 2517||NumRobot: 60||Moving: 59||Error: []
+
+------------------------------2024-08-26 | 09:31:39-----------------------------
+
+------------------------------2024-08-26 | 09:32:15-----------------------------
+
+------------------------------2024-08-26 | 09:33:03-----------------------------
+
+------------------------------2024-08-26 | 09:33:49-----------------------------
+
+------------------------------2024-08-26 | 09:34:04-----------------------------
+
+------------------------------2024-08-26 | 09:35:15-----------------------------
+
+------------------------------2024-08-26 | 09:35:27-----------------------------
+
+------------------------------2024-08-26 | 09:42:35-----------------------------
+
+------------------------------2024-08-26 | 09:43:02-----------------------------
+09:43:07||Sec counter: 5||Transfered: 9||NumRobot: 10||Moving: 10||Error: []
+
+------------------------------2024-08-26 | 09:44:05-----------------------------
+
+------------------------------2024-08-26 | 09:45:38-----------------------------
+
+------------------------------2024-08-26 | 09:47:20-----------------------------
+
+------------------------------2024-08-26 | 09:47:38-----------------------------
+
+------------------------------2024-08-26 | 09:51:20-----------------------------
+
+------------------------------2024-08-26 | 09:51:26-----------------------------
+
+------------------------------2024-08-26 | 09:51:55-----------------------------
+
+------------------------------2024-08-26 | 09:52:14-----------------------------
+
+------------------------------2024-08-26 | 09:52:35-----------------------------
+
+------------------------------2024-08-26 | 09:53:22-----------------------------
+
+------------------------------2024-08-26 | 09:55:42-----------------------------
+
+------------------------------2024-08-26 | 09:56:41-----------------------------
+
+------------------------------2024-08-26 | 09:57:38-----------------------------
+
+------------------------------2024-08-26 | 09:58:02-----------------------------
+
+------------------------------2024-08-26 | 09:58:30-----------------------------
+
+------------------------------2024-08-26 | 09:58:50-----------------------------
+
+------------------------------2024-08-26 | 09:59:03-----------------------------
+
+------------------------------2024-08-26 | 09:59:21-----------------------------
+
+------------------------------2024-08-26 | 10:01:04-----------------------------
+
+------------------------------2024-08-26 | 10:13:47-----------------------------
+
+------------------------------2024-08-26 | 10:14:52-----------------------------
+
+------------------------------2024-08-26 | 10:15:53-----------------------------
+
+------------------------------2024-08-26 | 10:16:10-----------------------------
+
+------------------------------2024-08-26 | 10:16:26-----------------------------
+
+------------------------------2024-08-26 | 10:17:55-----------------------------
+
+------------------------------2024-08-26 | 10:18:41-----------------------------
+
+------------------------------2024-08-26 | 10:19:07-----------------------------
+
+------------------------------2024-08-26 | 10:19:55-----------------------------
+
+------------------------------2024-08-26 | 10:20:20-----------------------------
+
+------------------------------2024-08-26 | 10:20:28-----------------------------
+
+------------------------------2024-08-26 | 10:21:08-----------------------------
+
+------------------------------2024-08-26 | 11:17:15-----------------------------
+
+------------------------------2024-08-26 | 11:17:49-----------------------------
+
+------------------------------2024-08-26 | 11:18:14-----------------------------
+
+------------------------------2024-08-26 | 11:19:06-----------------------------
+
+------------------------------2024-08-26 | 11:24:10-----------------------------
+
+------------------------------2024-08-26 | 11:24:28-----------------------------
+
+------------------------------2024-08-26 | 11:26:09-----------------------------
+
+------------------------------2024-08-26 | 13:45:57-----------------------------
+
+------------------------------2024-08-26 | 13:47:17-----------------------------
+
+------------------------------2024-08-26 | 13:49:20-----------------------------
+
+------------------------------2024-08-26 | 13:50:38-----------------------------
+
+------------------------------2024-08-26 | 13:52:35-----------------------------
+
+------------------------------2024-08-26 | 13:53:10-----------------------------
+
+------------------------------2024-08-26 | 13:55:02-----------------------------
+
+------------------------------2024-08-26 | 13:55:11-----------------------------
+
+------------------------------2024-08-26 | 13:57:35-----------------------------
+
+------------------------------2024-08-26 | 13:59:37-----------------------------
+
+------------------------------2024-08-26 | 14:02:51-----------------------------
+
+------------------------------2024-08-26 | 14:03:34-----------------------------
+
+------------------------------2024-08-26 | 14:05:58-----------------------------
+
+------------------------------2024-08-26 | 14:14:51-----------------------------
+
+------------------------------2024-08-26 | 14:15:03-----------------------------
+
+------------------------------2024-08-26 | 14:15:59-----------------------------
+
+------------------------------2024-08-26 | 14:18:56-----------------------------
+
+------------------------------2024-08-26 | 14:19:25-----------------------------
+
+------------------------------2024-08-26 | 14:19:56-----------------------------
+
+------------------------------2024-08-26 | 14:20:06-----------------------------
+
+------------------------------2024-08-26 | 14:21:36-----------------------------
+
+------------------------------2024-08-26 | 14:28:56-----------------------------
+
+------------------------------2024-08-26 | 14:29:16-----------------------------
+
+------------------------------2024-08-26 | 14:29:41-----------------------------
+
+------------------------------2024-08-26 | 14:30:15-----------------------------
